@@ -145,7 +145,7 @@ foreach($matches[1] as $key => $value) {
 $names_to_unified_line = $line_pre;
 
 foreach($names_to_unified as $key => $value) {
-    $names_to_unified_line .= '    \'' . $key . '\' => \'' . $value . "\',\n";
+    $names_to_unified_line .= '    \'' . $key . '\' => \'' . $value . "',\n";
 }
 
 $names_to_unified_line .= ');' . "\n";
