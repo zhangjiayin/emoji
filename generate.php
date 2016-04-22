@@ -51,6 +51,7 @@ $collection_names = array(
    '建筑',
 );
 $data = file_get_contents('emoji/emoji.json');
+
 $data = json_decode($data,true);
 foreach($data as $key => $value) {
     $hex = utf8_bytes_to_hex($key);
@@ -84,7 +85,7 @@ $names_to_unified_line .=  "#\n";
 $names_to_unified_line .=  "\n";                                                                                                          
 
 $names_to_unified_line .= "return array(\n";                                                                        
-
+$line_pre = $names_to_unified_line;
 $unified_to_text_code_line = $names_to_unified_line;
 $unified_to_text_code_keys = array();
 foreach($names_to_unified as $key => $value) {
@@ -128,6 +129,37 @@ $unified_to_text_code_line .= ");\n";
 file_put_contents('generate/include/emoji_text_code_to_unified.php', $names_to_unified_line);
 file_put_contents('generate/include/emoji_unified_to_text_code.php', $unified_to_text_code_line);
 
+$names_to_unified = include 'generate/include/emoji_text_code_to_unified.php';
+$unified_to_names = include 'generate/include/emoji_unified_to_text_code.php';
+
+$content = file_get_contents('zh.py');
+
+preg_match_all('#EmojiAnnotations\(emoji=\'(.*?)\'.*?name=\'(.*?)\'#', $content,$matches);
+foreach($matches[1] as $key => $value) {
+    $unified = $value;
+    $text = $matches[2][$key];
+    $names_to_unified['[emoji:' .  $text . ']'] = $unified;
+    $unified_to_names[$unified] = '[emoji:' .  $text . ']';
+}
+    
+$names_to_unified_line = $line_pre;
+
+foreach($names_to_unified as $key => $value) {
+    $names_to_unified_line .= '    \'' . $key . '\' => \'' . $value . "\',\n";
+}
+
+$names_to_unified_line .= ');' . "\n";
+
+$unified_to_text_code_line = $line_pre;
+
+foreach($unified_to_names as $key => $value) {
+    $unified_to_text_code_line .= '    \'' . $key . '\' => \'' . $value . "',\n";
+}
+
+$unified_to_text_code_line .= ');' . "\n";
+
+file_put_contents('generate/include/emoji_text_code_to_unified.php', $names_to_unified_line);
+file_put_contents('generate/include/emoji_unified_to_text_code.php', $unified_to_text_code_line);
 
 function encode_points($points){                                                                                    
     $bits = array();                                                                                                
