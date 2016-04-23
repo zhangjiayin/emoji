@@ -10,7 +10,7 @@ $unified_to_text_code = include 'generate/include/emoji_unified_to_text_code.php
 $category_to_unified = array();
 
 $category_names = array(
-    'People' => '表情符号和人物',
+    'People' => '表情符号与人物',
     'Objects' => '物体',
     'Activity' => '活动',
     'Nature'  => '动物和自然',

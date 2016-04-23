@@ -141,7 +141,8 @@ foreach($matches[1] as $key => $value) {
     $names_to_unified['[emoji:' .  $text . ']'] = $unified;
     $unified_to_names[$unified] = '[emoji:' .  $text . ']';
 }
-    
+
+
 $names_to_unified_line = $line_pre;
 
 foreach($names_to_unified as $key => $value) {
