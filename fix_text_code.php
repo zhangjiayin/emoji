@@ -25,8 +25,8 @@ foreach($emoji_text_code_to_unified as $key => $value){
 }
 $emoji_unified_to_text_code = array_unique($emoji_unified_to_text_code);
 $emoji_text_code_to_unified = array_unique($emoji_text_code_to_unified);
-//echo count($emoji_unified_to_text_code);
-//echo "\n";
-//echo count($emoji_text_code_to_unified);
+echo count($emoji_unified_to_text_code);
+echo "\n";
+echo count($emoji_text_code_to_unified);
 generatrFile($emoji_text_code_to_unified, 'text_code_to_unified');
 generatrFile($emoji_unified_to_text_code, 'unified_to_text_code');

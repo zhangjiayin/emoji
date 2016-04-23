@@ -9,55 +9,19 @@ if (!is_dir('generate/include')) {
 
 $names_to_unified = array();
 $collection_names = array(
-   '动物',
-   '動物',
-   '信息',
-   '商務',
-   '商务',
-   '交通',
-   '服裝',
-   '服装',
-   '表情',
-   '時間',
-   '时间',
-   '食物',
-   '符号',
-   '符號',
-   '星座',
-   '心情',
-   '庆祝',
-   '慶祝',
-   '頭像',
-   '头像',
-   '天氣',
-   '天气',
-   '运动',
-   '運動',
-   '手勢',
-   '手势',
-   '浪漫',
-   '水果',
-   '植物',
-   '標誌',
-   '标志',
-   '天文',
-   '工具',
-   '音乐',
-   '音樂',
-   '自然',
-   '一家四口',
-   '活動',
-   '活动',
-   '建築',
-   '建筑',
-);
+   '动物', '動物', '信息', '商務', '商务', '交通', '服裝', '服装', '表情', '時間', '时间', '食物', '符号', '符號', '星座', '心情', '庆祝', '慶祝', '頭像', '头像', '天氣', '天气', '运动', '運動', '手勢', '手势', '浪漫', '水果', '植物', '標誌', '标志', '天文', '工具', '音乐', '音樂', '自然', '活動', '活动', '建築', '建筑',);
 $data = file_get_contents('emoji/emoji.json');
 
 $data = json_decode($data,true);
 foreach($data as $key => $value) {
     $hex = utf8_bytes_to_hex($key);
     $hex = strtoupper($hex);
+    $value = array_reverse($value);
     foreach($value as $v){
+
+        if (is_cn_traditional($v)) { 
+            continue;
+        }
         if (empty($names_to_unified[$v])) {
             $names_to_unified[$v] = array();
         }
@@ -68,7 +32,7 @@ foreach($data as $key => $value) {
     }
 }
 
-
+/**
 foreach($names_to_unified as $key => $value) {
  //   if(count($value) > 1){
  //       unset($names_to_unified[$key]);
@@ -76,6 +40,7 @@ foreach($names_to_unified as $key => $value) {
         $names_to_unified[$key] = $value;
  //   }
 }
+ */
 $names_to_unified_line = '';
 $names_to_unified_line .= "<"."?php\n";                                                                                                  
 $names_to_unified_line .=  "\n";                                                                                                          
@@ -96,13 +61,15 @@ foreach($names_to_unified as $key => $value) {
     }
 
     $value = array_values($value);
-    $names_to_unified_line .= '    \'[emoji:' . $key  . ']\' => \'' . $value[0]['value'] .  '\',';
-    if (!in_array($value[0]['value'],$unified_to_text_code_keys)){
-        $unified_to_text_code_line .= '    \'' . $value[0]['value'] .  '\'' .  '=>' .  '\'[emoji:' . $key  . ']\',' ; 
-        $unified_to_text_code_keys[] = $value[0]['value'];
-        $unified_to_text_code_line .= "\n";
+    foreach($value as $k => $v ){
+        if (!in_array($v['value'],$unified_to_text_code_keys) && !is_cn_traditional($v['value'])){
+            $names_to_unified_line .= '    \'[emoji:' . $key  . ']\' => \'' . $v['value'] .  '\',';
+            $unified_to_text_code_line .= '    \'' . $v['value'] .  '\'' .  '=>' .  '\'[emoji:' . $key  . ']\',' ; 
+            $unified_to_text_code_keys[] = $v['value'];
+            $unified_to_text_code_line .= "\n";
+            break;
+        }
     }
-
 
     /**
     $names_to_unified_line .= '    "' . $key  . '" => array('  ;
@@ -159,7 +126,7 @@ foreach($unified_to_names as $key => $value) {
 }
 
 $unified_to_text_code_line .= ');' . "\n";
-
+//echo $names_to_unified_line;
 file_put_contents('generate/include/emoji_text_code_to_unified.php', $names_to_unified_line);
 file_put_contents('generate/include/emoji_unified_to_text_code.php', $unified_to_text_code_line);
 

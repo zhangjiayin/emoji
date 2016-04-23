@@ -36,25 +36,25 @@ return array(
             array(
                 'unified' => '😄',
                 'image_code' => '[emoji-img:1f604.png]',
-                'text_code' => '[emoji:笑]',
+                'text_code' => '[emoji:高兴]',
                 'name' => 'SMILING FACE WITH OPEN MOUTH AND SMILING EYES',
             ),
             array(
                 'unified' => '😅',
                 'image_code' => '[emoji-img:1f605.png]',
-                'text_code' => '[emoji:苦笑]',
+                'text_code' => '',
                 'name' => 'SMILING FACE WITH OPEN MOUTH AND COLD SWEAT',
             ),
             array(
                 'unified' => '😆',
                 'image_code' => '[emoji-img:1f606.png]',
-                'text_code' => '[emoji:傻笑]',
+                'text_code' => '[emoji:眯眼笑]',
                 'name' => 'SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES',
             ),
             array(
                 'unified' => '😉',
                 'image_code' => '[emoji-img:1f609.png]',
-                'text_code' => '[emoji:轻松]',
+                'text_code' => '[emoji:使眼色]',
                 'name' => 'WINKING FACE',
             ),
             array(
@@ -84,7 +84,7 @@ return array(
             array(
                 'unified' => '😘',
                 'image_code' => '[emoji-img:1f618.png]',
-                'text_code' => '[emoji:爱你]',
+                'text_code' => '[emoji:爱]',
                 'name' => 'FACE THROWING A KISS',
             ),
             array(
@@ -144,7 +144,7 @@ return array(
             array(
                 'unified' => '😐',
                 'image_code' => '[emoji-img:1f610.png]',
-                'text_code' => '[emoji:呆然]',
+                'text_code' => '[emoji:淡漠]',
                 'name' => 'NEUTRAL FACE',
             ),
             array(
@@ -156,7 +156,7 @@ return array(
             array(
                 'unified' => '😶',
                 'image_code' => '[emoji-img:1f636.png]',
-                'text_code' => '[emoji:无话可说]',
+                'text_code' => '[emoji:无语]',
                 'name' => 'FACE WITHOUT MOUTH',
             ),
             array(
@@ -204,7 +204,7 @@ return array(
             array(
                 'unified' => '😪',
                 'image_code' => '[emoji-img:1f62a.png]',
-                'text_code' => '[emoji:打瞌睡]',
+                'text_code' => '[emoji:困倦]',
                 'name' => 'SLEEPY FACE',
             ),
             array(
@@ -246,13 +246,13 @@ return array(
             array(
                 'unified' => '😒',
                 'image_code' => '[emoji-img:1f612.png]',
-                'text_code' => '[emoji:冷漠]',
+                'text_code' => '[emoji:愁眉苦脸]',
                 'name' => 'UNAMUSED FACE',
             ),
             array(
                 'unified' => '😓',
                 'image_code' => '[emoji-img:1f613.png]',
-                'text_code' => '[emoji:汗颜]',
+                'text_code' => '[emoji:冷汗]',
                 'name' => 'FACE WITH COLD SWEAT',
             ),
             array(
@@ -264,7 +264,7 @@ return array(
             array(
                 'unified' => '😕',
                 'image_code' => '[emoji-img:1f615.png]',
-                'text_code' => '[emoji:不屑]',
+                'text_code' => '[emoji:撇嘴]',
                 'name' => 'CONFUSED FACE',
             ),
             array(
@@ -318,13 +318,13 @@ return array(
             array(
                 'unified' => '😖',
                 'image_code' => '[emoji-img:1f616.png]',
-                'text_code' => '[emoji:苦恼]',
+                'text_code' => '',
                 'name' => 'CONFOUNDED FACE',
             ),
             array(
                 'unified' => '😞',
                 'image_code' => '[emoji-img:1f61e.png]',
-                'text_code' => '[emoji:低落]',
+                'text_code' => '[emoji:不开心]',
                 'name' => 'DISAPPOINTED FACE',
             ),
             array(
@@ -366,7 +366,7 @@ return array(
             array(
                 'unified' => '😨',
                 'image_code' => '[emoji-img:1f628.png]',
-                'text_code' => '[emoji:害怕]',
+                'text_code' => '',
                 'name' => 'FEARFUL FACE',
             ),
             array(
@@ -384,7 +384,7 @@ return array(
             array(
                 'unified' => '😰',
                 'image_code' => '[emoji-img:1f630.png]',
-                'text_code' => '[emoji:焦急]',
+                'text_code' => '[emoji:冒冷汗]',
                 'name' => 'FACE WITH OPEN MOUTH AND COLD SWEAT',
             ),
             array(
@@ -432,7 +432,7 @@ return array(
             array(
                 'unified' => '👹',
                 'image_code' => '[emoji-img:1f479.png]',
-                'text_code' => '[emoji:魔鬼]',
+                'text_code' => '',
                 'name' => 'JAPANESE OGRE≊ ogre',
             ),
             array(
@@ -528,25 +528,25 @@ return array(
             array(
                 'unified' => '👦',
                 'image_code' => '[emoji-img:1f466.png]',
-                'text_code' => '[emoji:儿子]',
+                'text_code' => '[emoji:男孩]',
                 'name' => 'BOY',
             ),
             array(
                 'unified' => '👧',
                 'image_code' => '[emoji-img:1f467.png]',
-                'text_code' => '[emoji:女儿]',
+                'text_code' => '[emoji:女孩]',
                 'name' => 'GIRL',
             ),
             array(
                 'unified' => '👨',
                 'image_code' => '[emoji-img:1f468.png]',
-                'text_code' => '[emoji:男人]',
+                'text_code' => '[emoji:父亲]',
                 'name' => 'MAN',
             ),
             array(
                 'unified' => '👩',
                 'image_code' => '[emoji-img:1f469.png]',
-                'text_code' => '[emoji:母亲]',
+                'text_code' => '[emoji:女人]',
                 'name' => 'WOMAN',
             ),
             array(
@@ -594,7 +594,7 @@ return array(
             array(
                 'unified' => '👷',
                 'image_code' => '[emoji-img:1f477.png]',
-                'text_code' => '[emoji:工人]',
+                'text_code' => '[emoji:建筑工人]',
                 'name' => 'CONSTRUCTION WORKER',
             ),
             array(
@@ -606,13 +606,13 @@ return array(
             array(
                 'unified' => '👸',
                 'image_code' => '[emoji-img:1f478.png]',
-                'text_code' => '[emoji:公主]',
+                'text_code' => '[emoji:童话]',
                 'name' => 'PRINCESS',
             ),
             array(
                 'unified' => '💂',
                 'image_code' => '[emoji-img:1f482.png]',
-                'text_code' => '[emoji:卫士]',
+                'text_code' => '[emoji:卫兵]',
                 'name' => 'GUARDSMAN',
             ),
             array(
@@ -642,25 +642,25 @@ return array(
             array(
                 'unified' => '💆',
                 'image_code' => '[emoji-img:1f486.png]',
-                'text_code' => '[emoji:美容]',
+                'text_code' => '[emoji:按摩]',
                 'name' => 'FACE MASSAGE',
             ),
             array(
                 'unified' => '💇',
                 'image_code' => '[emoji-img:1f487.png]',
-                'text_code' => '[emoji:剃头]',
+                'text_code' => '[emoji:理发]',
                 'name' => 'HAIRCUT',
             ),
             array(
                 'unified' => '🙍',
                 'image_code' => '[emoji-img:1f64d.png]',
-                'text_code' => '[emoji:气馁]',
+                'text_code' => '[emoji:低落]',
                 'name' => 'PERSON FROWNING',
             ),
             array(
                 'unified' => '🙎',
                 'image_code' => '[emoji-img:1f64e.png]',
-                'text_code' => '',
+                'text_code' => '[emoji:嘟嘴]',
                 'name' => 'PERSON WITH POUTING FACE≊ person pouting',
             ),
             array(
@@ -684,7 +684,7 @@ return array(
             array(
                 'unified' => '🙋',
                 'image_code' => '[emoji-img:1f64b.png]',
-                'text_code' => '[emoji:打招呼]',
+                'text_code' => '[emoji:举手]',
                 'name' => 'HAPPY PERSON RAISING ONE HAND≊ happy person raising hand',
             ),
             array(
@@ -702,7 +702,7 @@ return array(
             array(
                 'unified' => '🙏',
                 'image_code' => '[emoji-img:1f64f.png]',
-                'text_code' => '[emoji:拜托]',
+                'text_code' => '[emoji:恳求]',
                 'name' => 'PERSON WITH FOLDED HANDS≊ folded hands',
             ),
             array(
@@ -714,13 +714,13 @@ return array(
             array(
                 'unified' => '👤',
                 'image_code' => '[emoji-img:1f464.png]',
-                'text_code' => '[emoji:半身像]',
+                'text_code' => '[emoji:个人]',
                 'name' => 'BUST IN SILHOUETTE',
             ),
             array(
                 'unified' => '👥',
                 'image_code' => '[emoji-img:1f465.png]',
-                'text_code' => '[emoji:多人]',
+                'text_code' => '[emoji:双人]',
                 'name' => 'BUSTS IN SILHOUETTE',
             ),
             array(
@@ -798,7 +798,7 @@ return array(
             array(
                 'unified' => '👩‍❤️‍👩',
                 'image_code' => '[emoji-img:1f469-200d-2764-fe0f-200d-1f469.png]',
-                'text_code' => '[emoji:姐妹情深]',
+                'text_code' => '[emoji:闺蜜情谊]',
                 'name' => 'Couple with heart: WOMAN, WOMAN',
             ),
             array(
@@ -822,7 +822,7 @@ return array(
             array(
                 'unified' => '👨‍👩‍👦‍👦',
                 'image_code' => '[emoji-img:1f468-200d-1f469-200d-1f466-200d-1f466.png]',
-                'text_code' => '[emoji:双龙之家]',
+                'text_code' => '[emoji:一家四口]',
                 'name' => 'Family: MAN, WOMAN, BOY, BOY',
             ),
             array(
@@ -990,13 +990,13 @@ return array(
             array(
                 'unified' => '👊',
                 'image_code' => '[emoji-img:1f44a.png]',
-                'text_code' => '[emoji:挥拳]',
+                'text_code' => '[emoji:打击]',
                 'name' => 'FISTED HAND SIGN≊ oncoming fist',
             ),
             array(
                 'unified' => '👋',
                 'image_code' => '[emoji-img:1f44b.png]',
-                'text_code' => '[emoji:挥手]',
+                'text_code' => '[emoji:手]',
                 'name' => 'WAVING HAND SIGN≊ waving hand',
             ),
             array(
@@ -1008,7 +1008,7 @@ return array(
             array(
                 'unified' => '👐',
                 'image_code' => '[emoji-img:1f450.png]',
-                'text_code' => '[emoji:没办法]',
+                'text_code' => '[emoji:双掌]',
                 'name' => 'OPEN HANDS SIGN≊ open hands',
             ),
             array(
@@ -1026,13 +1026,13 @@ return array(
             array(
                 'unified' => '👂',
                 'image_code' => '[emoji-img:1f442.png]',
-                'text_code' => '[emoji:听]',
+                'text_code' => '[emoji:脸部器官]',
                 'name' => 'EAR',
             ),
             array(
                 'unified' => '👃',
                 'image_code' => '[emoji-img:1f443.png]',
-                'text_code' => '[emoji:闻]',
+                'text_code' => '[emoji:鼻子]',
                 'name' => 'NOSE',
             ),
             array(
@@ -1056,13 +1056,13 @@ return array(
             array(
                 'unified' => '👅',
                 'image_code' => '[emoji-img:1f445.png]',
-                'text_code' => '[emoji:尝]',
+                'text_code' => '[emoji:舌头]',
                 'name' => 'TONGUE',
             ),
             array(
                 'unified' => '👄',
                 'image_code' => '[emoji-img:1f444.png]',
-                'text_code' => '[emoji:嘴巴]',
+                'text_code' => '[emoji:器官]',
                 'name' => 'MOUTH',
             ),
             array(
@@ -1080,7 +1080,7 @@ return array(
             array(
                 'unified' => '👓',
                 'image_code' => '[emoji-img:1f453.png]',
-                'text_code' => '[emoji:近视]',
+                'text_code' => '[emoji:眼镜]',
                 'name' => 'EYEGLASSES≊ glasses',
             ),
             array(
@@ -1116,7 +1116,7 @@ return array(
             array(
                 'unified' => '👘',
                 'image_code' => '[emoji-img:1f458.png]',
-                'text_code' => '[emoji:浴衣]',
+                'text_code' => '[emoji:和服]',
                 'name' => 'KIMONO',
             ),
             array(
@@ -1128,7 +1128,7 @@ return array(
             array(
                 'unified' => '👚',
                 'image_code' => '[emoji-img:1f45a.png]',
-                'text_code' => '[emoji:上衣]',
+                'text_code' => '[emoji:女装]',
                 'name' => 'WOMANS CLOTHES≊ woman’s clothes',
             ),
             array(
@@ -1146,13 +1146,13 @@ return array(
             array(
                 'unified' => '👝',
                 'image_code' => '[emoji-img:1f45d.png]',
-                'text_code' => '[emoji:小包包]',
+                'text_code' => '[emoji:皮包]',
                 'name' => 'POUCH',
             ),
             array(
                 'unified' => '🎒',
                 'image_code' => '[emoji-img:1f392.png]',
-                'text_code' => '[emoji:书包]',
+                'text_code' => '[emoji:上学]',
                 'name' => 'SCHOOL SATCHEL≊ school backpack',
             ),
             array(
@@ -1164,13 +1164,13 @@ return array(
             array(
                 'unified' => '👟',
                 'image_code' => '[emoji-img:1f45f.png]',
-                'text_code' => '[emoji:休闲鞋]',
+                'text_code' => '[emoji:鞋]',
                 'name' => 'ATHLETIC SHOE≊ running shoe',
             ),
             array(
                 'unified' => '👠',
                 'image_code' => '[emoji-img:1f460.png]',
-                'text_code' => '[emoji:鞋]',
+                'text_code' => '[emoji:女鞋]',
                 'name' => 'HIGH-HEELED SHOE',
             ),
             array(
@@ -1182,7 +1182,7 @@ return array(
             array(
                 'unified' => '👢',
                 'image_code' => '[emoji-img:1f462.png]',
-                'text_code' => '[emoji:靴子]',
+                'text_code' => '[emoji:长靴]',
                 'name' => 'WOMANS BOOTS≊ woman’s boot',
             ),
             array(
@@ -1200,7 +1200,7 @@ return array(
             array(
                 'unified' => '🎩',
                 'image_code' => '[emoji-img:1f3a9.png]',
-                'text_code' => '[emoji:戏剧]',
+                'text_code' => '[emoji:礼帽]',
                 'name' => 'TOP HAT',
             ),
             array(
@@ -1230,7 +1230,7 @@ return array(
             array(
                 'unified' => '💼',
                 'image_code' => '[emoji-img:1f4bc.png]',
-                'text_code' => '[emoji:公事包]',
+                'text_code' => '[emoji:公文包]',
                 'name' => 'BRIEFCASE',
             ),
         ),
@@ -1301,7 +1301,7 @@ return array(
             array(
                 'unified' => '💈',
                 'image_code' => '[emoji-img:1f488.png]',
-                'text_code' => '[emoji:理发]',
+                'text_code' => '[emoji:理发店]',
                 'name' => 'BARBER POLE',
             ),
             array(
@@ -1349,7 +1349,7 @@ return array(
             array(
                 'unified' => '🚿',
                 'image_code' => '[emoji-img:1f6bf.png]',
-                'text_code' => '[emoji:冲凉]',
+                'text_code' => '[emoji:洗澡]',
                 'name' => 'SHOWER',
             ),
             array(
@@ -1415,7 +1415,7 @@ return array(
             array(
                 'unified' => '🎈',
                 'image_code' => '[emoji-img:1f388.png]',
-                'text_code' => '[emoji:气球]',
+                'text_code' => '[emoji:庆典]',
                 'name' => 'BALLOON',
             ),
             array(
@@ -1439,25 +1439,25 @@ return array(
             array(
                 'unified' => '🎏',
                 'image_code' => '[emoji-img:1f38f.png]',
-                'text_code' => '[emoji:日本男儿节]',
+                'text_code' => '[emoji:男孩节]',
                 'name' => 'CARP STREAMER',
             ),
             array(
                 'unified' => '🎐',
                 'image_code' => '[emoji-img:1f390.png]',
-                'text_code' => '[emoji:风铃]',
+                'text_code' => '[emoji:风铃节]',
                 'name' => 'WIND CHIME',
             ),
             array(
                 'unified' => '🎀',
                 'image_code' => '[emoji-img:1f380.png]',
-                'text_code' => '[emoji:缎带]',
+                'text_code' => '[emoji:蝴蝶结]',
                 'name' => 'RIBBON',
             ),
             array(
                 'unified' => '🎁',
                 'image_code' => '[emoji-img:1f381.png]',
-                'text_code' => '[emoji:礼品]',
+                'text_code' => '[emoji:礼物]',
                 'name' => 'WRAPPED PRESENT',
             ),
             array(
@@ -1469,7 +1469,7 @@ return array(
             array(
                 'unified' => '📯',
                 'image_code' => '[emoji-img:1f4ef.png]',
-                'text_code' => '[emoji:邮政号角]',
+                'text_code' => '[emoji:号角]',
                 'name' => 'POSTAL HORN',
             ),
             array(
@@ -1493,7 +1493,7 @@ return array(
             array(
                 'unified' => '📻',
                 'image_code' => '[emoji-img:1f4fb.png]',
-                'text_code' => '[emoji:收音机]',
+                'text_code' => '[emoji:广播]',
                 'name' => 'RADIO',
             ),
             array(
@@ -1523,7 +1523,7 @@ return array(
             array(
                 'unified' => '📟',
                 'image_code' => '[emoji-img:1f4df.png]',
-                'text_code' => '[emoji:传呼机]',
+                'text_code' => '[emoji:呼机]',
                 'name' => 'PAGER',
             ),
             array(
@@ -1535,7 +1535,7 @@ return array(
             array(
                 'unified' => '🔋',
                 'image_code' => '[emoji-img:1f50b.png]',
-                'text_code' => '[emoji:电池]',
+                'text_code' => '[emoji:电量]',
                 'name' => 'BATTERY',
             ),
             array(
@@ -1589,7 +1589,7 @@ return array(
             array(
                 'unified' => '💾',
                 'image_code' => '[emoji-img:1f4be.png]',
-                'text_code' => '[emoji:软碟]',
+                'text_code' => '[emoji:软盘]',
                 'name' => 'FLOPPY DISK',
             ),
             array(
@@ -1607,7 +1607,7 @@ return array(
             array(
                 'unified' => '🎥',
                 'image_code' => '[emoji-img:1f3a5.png]',
-                'text_code' => '[emoji:放映]',
+                'text_code' => '[emoji:摄影机]',
                 'name' => 'MOVIE CAMERA',
             ),
             array(
@@ -1625,13 +1625,13 @@ return array(
             array(
                 'unified' => '📺',
                 'image_code' => '[emoji-img:1f4fa.png]',
-                'text_code' => '[emoji:电视]',
+                'text_code' => '[emoji:电视机]',
                 'name' => 'TELEVISION',
             ),
             array(
                 'unified' => '📷',
                 'image_code' => '[emoji-img:1f4f7.png]',
-                'text_code' => '[emoji:拍照]',
+                'text_code' => '[emoji:照相]',
                 'name' => 'CAMERA',
             ),
             array(
@@ -1643,13 +1643,13 @@ return array(
             array(
                 'unified' => '📹',
                 'image_code' => '[emoji-img:1f4f9.png]',
-                'text_code' => '[emoji:摄像机]',
+                'text_code' => '[emoji:录像]',
                 'name' => 'VIDEO CAMERA',
             ),
             array(
                 'unified' => '📼',
                 'image_code' => '[emoji-img:1f4fc.png]',
-                'text_code' => '[emoji:录影带]',
+                'text_code' => '[emoji:录像带]',
                 'name' => 'VIDEOCASSETTE',
             ),
             array(
@@ -1667,13 +1667,13 @@ return array(
             array(
                 'unified' => '🔬',
                 'image_code' => '[emoji-img:1f52c.png]',
-                'text_code' => '[emoji:做实验]',
+                'text_code' => '[emoji:显微镜]',
                 'name' => 'MICROSCOPE',
             ),
             array(
                 'unified' => '🔭',
                 'image_code' => '[emoji-img:1f52d.png]',
-                'text_code' => '[emoji:天文观察]',
+                'text_code' => '[emoji:望远镜]',
                 'name' => 'TELESCOPE',
             ),
             array(
@@ -1691,19 +1691,19 @@ return array(
             array(
                 'unified' => '💡',
                 'image_code' => '[emoji-img:1f4a1.png]',
-                'text_code' => '[emoji:电灯泡]',
+                'text_code' => '[emoji:点子]',
                 'name' => 'ELECTRIC LIGHT BULB≊ light bulb',
             ),
             array(
                 'unified' => '🔦',
                 'image_code' => '[emoji-img:1f526.png]',
-                'text_code' => '[emoji:照明]',
+                'text_code' => '[emoji:手电筒]',
                 'name' => 'ELECTRIC TORCH≊ flashlight',
             ),
             array(
                 'unified' => '🏮',
                 'image_code' => '[emoji-img:1f3ee.png]',
-                'text_code' => '[emoji:灯笼]',
+                'text_code' => '[emoji:居酒屋灯笼]',
                 'name' => 'IZAKAYA LANTERN≊ red paper lantern',
             ),
             array(
@@ -1745,7 +1745,7 @@ return array(
             array(
                 'unified' => '📚',
                 'image_code' => '[emoji-img:1f4da.png]',
-                'text_code' => '[emoji:书籍]',
+                'text_code' => '',
                 'name' => 'BOOKS',
             ),
             array(
@@ -1757,7 +1757,7 @@ return array(
             array(
                 'unified' => '📒',
                 'image_code' => '[emoji-img:1f4d2.png]',
-                'text_code' => '[emoji:笔记]',
+                'text_code' => '[emoji:帐本]',
                 'name' => 'LEDGER',
             ),
             array(
@@ -1769,7 +1769,7 @@ return array(
             array(
                 'unified' => '📜',
                 'image_code' => '[emoji-img:1f4dc.png]',
-                'text_code' => '[emoji:卷轴]',
+                'text_code' => '[emoji:卷宗]',
                 'name' => 'SCROLL',
             ),
             array(
@@ -1781,7 +1781,7 @@ return array(
             array(
                 'unified' => '📰',
                 'image_code' => '[emoji-img:1f4f0.png]',
-                'text_code' => '[emoji:新闻]',
+                'text_code' => '[emoji:报纸]',
                 'name' => 'NEWSPAPER',
             ),
             array(
@@ -1865,31 +1865,31 @@ return array(
             array(
                 'unified' => '📨',
                 'image_code' => '[emoji-img:1f4e8.png]',
-                'text_code' => '[emoji:来信]',
+                'text_code' => '[emoji:收件匣]',
                 'name' => 'INCOMING ENVELOPE',
             ),
             array(
                 'unified' => '📩',
                 'image_code' => '[emoji-img:1f4e9.png]',
-                'text_code' => '[emoji:发送邮件]',
+                'text_code' => '[emoji:发邮件]',
                 'name' => 'ENVELOPE WITH DOWNWARDS ARROW ABOVE≊ envelope with arrow',
             ),
             array(
                 'unified' => '📤',
                 'image_code' => '[emoji-img:1f4e4.png]',
-                'text_code' => '[emoji:发件箱]',
+                'text_code' => '[emoji:发件箱托盘]',
                 'name' => 'OUTBOX TRAY',
             ),
             array(
                 'unified' => '📥',
                 'image_code' => '[emoji-img:1f4e5.png]',
-                'text_code' => '[emoji:收件箱]',
+                'text_code' => '[emoji:收件箱托盘]',
                 'name' => 'INBOX TRAY',
             ),
             array(
                 'unified' => '📦',
                 'image_code' => '[emoji-img:1f4e6.png]',
-                'text_code' => '[emoji:封装]',
+                'text_code' => '[emoji:礼品]',
                 'name' => 'PACKAGE',
             ),
             array(
@@ -1979,7 +1979,7 @@ return array(
             array(
                 'unified' => '📂',
                 'image_code' => '[emoji-img:1f4c2.png]',
-                'text_code' => '[emoji:开启资料夹]',
+                'text_code' => '[emoji:文件夹]',
                 'name' => 'OPEN FILE FOLDER',
             ),
             array(
@@ -1991,7 +1991,7 @@ return array(
             array(
                 'unified' => '📅',
                 'image_code' => '[emoji-img:1f4c5.png]',
-                'text_code' => '[emoji:日历]',
+                'text_code' => '',
                 'name' => 'CALENDAR',
             ),
             array(
@@ -2015,7 +2015,7 @@ return array(
             array(
                 'unified' => '📇',
                 'image_code' => '[emoji-img:1f4c7.png]',
-                'text_code' => '[emoji:卡片索引]',
+                'text_code' => '[emoji:索引卡]',
                 'name' => 'CARD INDEX',
             ),
             array(
@@ -2039,7 +2039,7 @@ return array(
             array(
                 'unified' => '📋',
                 'image_code' => '[emoji-img:1f4cb.png]',
-                'text_code' => '[emoji:粘贴板]',
+                'text_code' => '[emoji:剪贴板]',
                 'name' => 'CLIPBOARD',
             ),
             array(
@@ -2105,7 +2105,7 @@ return array(
             array(
                 'unified' => '🔒',
                 'image_code' => '[emoji-img:1f512.png]',
-                'text_code' => '[emoji:锁定]',
+                'text_code' => '[emoji:上锁]',
                 'name' => 'LOCK',
             ),
             array(
@@ -2141,7 +2141,7 @@ return array(
             array(
                 'unified' => '🔨',
                 'image_code' => '[emoji-img:1f528.png]',
-                'text_code' => '[emoji:锤子]',
+                'text_code' => '[emoji:铁锤]',
                 'name' => 'HAMMER',
             ),
             array(
@@ -2189,7 +2189,7 @@ return array(
             array(
                 'unified' => '🔧',
                 'image_code' => '[emoji-img:1f527.png]',
-                'text_code' => '[emoji:修理]',
+                'text_code' => '[emoji:扳手]',
                 'name' => 'WRENCH',
             ),
             array(
@@ -2249,7 +2249,7 @@ return array(
             array(
                 'unified' => '🚬',
                 'image_code' => '[emoji-img:1f6ac.png]',
-                'text_code' => '[emoji:吸烟区]',
+                'text_code' => '[emoji:吸烟]',
                 'name' => 'SMOKING SYMBOL≊ smoking',
             ),
             array(
@@ -2279,13 +2279,13 @@ return array(
             array(
                 'unified' => '🔮',
                 'image_code' => '[emoji-img:1f52e.png]',
-                'text_code' => '[emoji:占卜]',
+                'text_code' => '[emoji:水晶球]',
                 'name' => 'CRYSTAL BALL',
             ),
             array(
                 'unified' => '🚩',
                 'image_code' => '[emoji-img:1f6a9.png]',
-                'text_code' => '[emoji:红旗]',
+                'text_code' => '[emoji:终点]',
                 'name' => 'TRIANGULAR FLAG ON POST≊ triangular flag',
             ),
             array(
@@ -2344,13 +2344,13 @@ return array(
             array(
                 'unified' => '🎨',
                 'image_code' => '[emoji-img:1f3a8.png]',
-                'text_code' => '[emoji:调色板]',
+                'text_code' => '[emoji:绘画]',
                 'name' => 'ARTIST PALETTE',
             ),
             array(
                 'unified' => '🎰',
                 'image_code' => '[emoji-img:1f3b0.png]',
-                'text_code' => '[emoji:老虎机]',
+                'text_code' => '[emoji:吃角子老虎]',
                 'name' => 'SLOT MACHINE',
             ),
             array(
@@ -2380,7 +2380,7 @@ return array(
             array(
                 'unified' => '🎫',
                 'image_code' => '[emoji-img:1f3ab.png]',
-                'text_code' => '[emoji:入场券]',
+                'text_code' => '[emoji:票据]',
                 'name' => 'TICKET',
             ),
             array(
@@ -2392,7 +2392,7 @@ return array(
             array(
                 'unified' => '🏆',
                 'image_code' => '[emoji-img:1f3c6.png]',
-                'text_code' => '[emoji:夺冠]',
+                'text_code' => '[emoji:奖杯]',
                 'name' => 'TROPHY',
             ),
             array(
@@ -2506,19 +2506,19 @@ return array(
             array(
                 'unified' => '🎣',
                 'image_code' => '[emoji-img:1f3a3.png]',
-                'text_code' => '[emoji:钓鱼]',
+                'text_code' => '[emoji:钓鱼场]',
                 'name' => 'FISHING POLE AND FISH≊ fishing pole',
             ),
             array(
                 'unified' => '🎽',
                 'image_code' => '[emoji-img:1f3bd.png]',
-                'text_code' => '[emoji:运动衫]',
+                'text_code' => '[emoji:背心]',
                 'name' => 'RUNNING SHIRT WITH SASH≊ running shirt',
             ),
             array(
                 'unified' => '🎿',
                 'image_code' => '[emoji-img:1f3bf.png]',
-                'text_code' => '[emoji:滑雪鞋]',
+                'text_code' => '[emoji:滑雪]',
                 'name' => 'SKI AND SKI BOOT≊ skis',
             ),
             array(
@@ -2530,7 +2530,7 @@ return array(
             array(
                 'unified' => '🏂',
                 'image_code' => '[emoji-img:1f3c2.png]',
-                'text_code' => '[emoji:单板滑雪]',
+                'text_code' => '[emoji:滑雪板]',
                 'name' => 'SNOWBOARDER',
             ),
             array(
@@ -2644,7 +2644,7 @@ return array(
             array(
                 'unified' => '🎬',
                 'image_code' => '[emoji-img:1f3ac.png]',
-                'text_code' => '[emoji:电影打板]',
+                'text_code' => '[emoji:电影]',
                 'name' => 'CLAPPER BOARD',
             ),
             array(
@@ -2679,7 +2679,7 @@ return array(
             array(
                 'unified' => '💥',
                 'image_code' => '[emoji-img:1f4a5.png]',
-                'text_code' => '[emoji:碰撞]',
+                'text_code' => '[emoji:爆炸]',
                 'name' => 'COLLISION SYMBOL≊ collision',
             ),
             array(
@@ -2703,7 +2703,7 @@ return array(
             array(
                 'unified' => '🐵',
                 'image_code' => '[emoji-img:1f435.png]',
-                'text_code' => '[emoji:猴脸]',
+                'text_code' => '[emoji:猴子脸]',
                 'name' => 'MONKEY FACE',
             ),
             array(
@@ -2727,13 +2727,13 @@ return array(
             array(
                 'unified' => '🐩',
                 'image_code' => '[emoji-img:1f429.png]',
-                'text_code' => '[emoji:贵宾狗]',
+                'text_code' => '[emoji:狮子狗]',
                 'name' => 'POODLE',
             ),
             array(
                 'unified' => '🐺',
                 'image_code' => '[emoji-img:1f43a.png]',
-                'text_code' => '[emoji:狼脸]',
+                'text_code' => '[emoji:狼]',
                 'name' => 'WOLF FACE',
             ),
             array(
@@ -2757,7 +2757,7 @@ return array(
             array(
                 'unified' => '🐯',
                 'image_code' => '[emoji-img:1f42f.png]',
-                'text_code' => '[emoji:老虎脸]',
+                'text_code' => '[emoji:虎]',
                 'name' => 'TIGER FACE',
             ),
             array(
@@ -2781,7 +2781,7 @@ return array(
             array(
                 'unified' => '🐎',
                 'image_code' => '[emoji-img:1f40e.png]',
-                'text_code' => '',
+                'text_code' => '[emoji:神马]',
                 'name' => 'HORSE',
             ),
             array(
@@ -2793,7 +2793,7 @@ return array(
             array(
                 'unified' => '🐮',
                 'image_code' => '[emoji-img:1f42e.png]',
-                'text_code' => '[emoji:母牛]',
+                'text_code' => '[emoji:牛]',
                 'name' => 'COW FACE',
             ),
             array(
@@ -2817,7 +2817,7 @@ return array(
             array(
                 'unified' => '🐷',
                 'image_code' => '[emoji-img:1f437.png]',
-                'text_code' => '[emoji:猪脸]',
+                'text_code' => '[emoji:猪头]',
                 'name' => 'PIG FACE',
             ),
             array(
@@ -2829,7 +2829,7 @@ return array(
             array(
                 'unified' => '🐗',
                 'image_code' => '[emoji-img:1f417.png]',
-                'text_code' => '[emoji:野猪]',
+                'text_code' => '[emoji:猪]',
                 'name' => 'BOAR',
             ),
             array(
@@ -2847,19 +2847,19 @@ return array(
             array(
                 'unified' => '🐑',
                 'image_code' => '[emoji-img:1f411.png]',
-                'text_code' => '[emoji:羊羔]',
+                'text_code' => '[emoji:绵羊]',
                 'name' => 'SHEEP',
             ),
             array(
                 'unified' => '🐐',
                 'image_code' => '[emoji-img:1f410.png]',
-                'text_code' => '[emoji:山羊]',
+                'text_code' => '[emoji:羊]',
                 'name' => 'GOAT',
             ),
             array(
                 'unified' => '🐪',
                 'image_code' => '[emoji-img:1f42a.png]',
-                'text_code' => '[emoji:单峰驼]',
+                'text_code' => '[emoji:骆驼]',
                 'name' => 'DROMEDARY CAMEL≊ camel',
             ),
             array(
@@ -2871,19 +2871,19 @@ return array(
             array(
                 'unified' => '🐘',
                 'image_code' => '[emoji-img:1f418.png]',
-                'text_code' => '[emoji:大象]',
+                'text_code' => '[emoji:象]',
                 'name' => 'ELEPHANT',
             ),
             array(
                 'unified' => '🐭',
                 'image_code' => '[emoji-img:1f42d.png]',
-                'text_code' => '[emoji:鼠]',
+                'text_code' => '[emoji:老鼠脸]',
                 'name' => 'MOUSE FACE',
             ),
             array(
                 'unified' => '🐁',
                 'image_code' => '[emoji-img:1f401.png]',
-                'text_code' => '[emoji:老鼠]',
+                'text_code' => '',
                 'name' => 'MOUSE',
             ),
             array(
@@ -2895,13 +2895,13 @@ return array(
             array(
                 'unified' => '🐹',
                 'image_code' => '[emoji-img:1f439.png]',
-                'text_code' => '[emoji:仓鼠]',
+                'text_code' => '[emoji:仓鼠脸]',
                 'name' => 'HAMSTER FACE',
             ),
             array(
                 'unified' => '🐰',
                 'image_code' => '[emoji-img:1f430.png]',
-                'text_code' => '[emoji:兔脸]',
+                'text_code' => '[emoji:兔子脸]',
                 'name' => 'RABBIT FACE',
             ),
             array(
@@ -2919,25 +2919,25 @@ return array(
             array(
                 'unified' => '🐻',
                 'image_code' => '[emoji-img:1f43b.png]',
-                'text_code' => '[emoji:熊]',
+                'text_code' => '[emoji:熊脸]',
                 'name' => 'BEAR FACE',
             ),
             array(
                 'unified' => '🐨',
                 'image_code' => '[emoji-img:1f428.png]',
-                'text_code' => '[emoji:考拉]',
+                'text_code' => '[emoji:可拉熊]',
                 'name' => 'KOALA',
             ),
             array(
                 'unified' => '🐼',
                 'image_code' => '[emoji-img:1f43c.png]',
-                'text_code' => '[emoji:熊猫]',
+                'text_code' => '[emoji:熊猫脸]',
                 'name' => 'PANDA FACE',
             ),
             array(
                 'unified' => '🐾',
                 'image_code' => '[emoji-img:1f43e.png]',
-                'text_code' => '[emoji:动物足印]',
+                'text_code' => '[emoji:掌印]',
                 'name' => 'PAW PRINTS',
             ),
             array(
@@ -2949,7 +2949,7 @@ return array(
             array(
                 'unified' => '🐔',
                 'image_code' => '[emoji-img:1f414.png]',
-                'text_code' => '[emoji:鸡]',
+                'text_code' => '[emoji:母鸡]',
                 'name' => 'CHICKEN',
             ),
             array(
@@ -2967,7 +2967,7 @@ return array(
             array(
                 'unified' => '🐤',
                 'image_code' => '[emoji-img:1f424.png]',
-                'text_code' => '[emoji:鸡宝宝]',
+                'text_code' => '[emoji:小鸡宝宝]',
                 'name' => 'BABY CHICK',
             ),
             array(
@@ -2979,7 +2979,7 @@ return array(
             array(
                 'unified' => '🐦',
                 'image_code' => '[emoji-img:1f426.png]',
-                'text_code' => '[emoji:鸟]',
+                'text_code' => '[emoji:小鸟]',
                 'name' => 'BIRD',
             ),
             array(
@@ -2997,7 +2997,7 @@ return array(
             array(
                 'unified' => '🐸',
                 'image_code' => '[emoji-img:1f438.png]',
-                'text_code' => '[emoji:青蛙]',
+                'text_code' => '[emoji:动物表情]',
                 'name' => 'FROG FACE',
             ),
             array(
@@ -3009,7 +3009,7 @@ return array(
             array(
                 'unified' => '🐢',
                 'image_code' => '[emoji-img:1f422.png]',
-                'text_code' => '[emoji:龟]',
+                'text_code' => '[emoji:乌龟]',
                 'name' => 'TURTLE',
             ),
             array(
@@ -3021,13 +3021,13 @@ return array(
             array(
                 'unified' => '🐲',
                 'image_code' => '[emoji-img:1f432.png]',
-                'text_code' => '[emoji:龙脸]',
+                'text_code' => '[emoji:龙]',
                 'name' => 'DRAGON FACE',
             ),
             array(
                 'unified' => '🐉',
                 'image_code' => '[emoji-img:1f409.png]',
-                'text_code' => '[emoji:龙]',
+                'text_code' => '[emoji:青龙]',
                 'name' => 'DRAGON',
             ),
             array(
@@ -3057,7 +3057,7 @@ return array(
             array(
                 'unified' => '🐠',
                 'image_code' => '[emoji-img:1f420.png]',
-                'text_code' => '[emoji:热带鱼]',
+                'text_code' => '[emoji:鱼]',
                 'name' => 'TROPICAL FISH',
             ),
             array(
@@ -3069,7 +3069,7 @@ return array(
             array(
                 'unified' => '🐙',
                 'image_code' => '[emoji-img:1f419.png]',
-                'text_code' => '[emoji:章鱼]',
+                'text_code' => '[emoji:八爪鱼]',
                 'name' => 'OCTOPUS',
             ),
             array(
@@ -3111,7 +3111,7 @@ return array(
             array(
                 'unified' => '🐞',
                 'image_code' => '[emoji-img:1f41e.png]',
-                'text_code' => '[emoji:瓢虫]',
+                'text_code' => '[emoji:甲壳虫]',
                 'name' => 'LADY BEETLE',
             ),
             array(
@@ -3177,7 +3177,7 @@ return array(
             array(
                 'unified' => '🌱',
                 'image_code' => '[emoji-img:1f331.png]',
-                'text_code' => '[emoji:幼苗]',
+                'text_code' => '[emoji:青苗]',
                 'name' => 'SEEDLING',
             ),
             array(
@@ -3189,13 +3189,13 @@ return array(
             array(
                 'unified' => '🌳',
                 'image_code' => '[emoji-img:1f333.png]',
-                'text_code' => '[emoji:落叶树]',
+                'text_code' => '[emoji:树]',
                 'name' => 'DECIDUOUS TREE',
             ),
             array(
                 'unified' => '🌴',
                 'image_code' => '[emoji-img:1f334.png]',
-                'text_code' => '[emoji:树]',
+                'text_code' => '[emoji:棕榈树]',
                 'name' => 'PALM TREE',
             ),
             array(
@@ -3207,7 +3207,7 @@ return array(
             array(
                 'unified' => '🌾',
                 'image_code' => '[emoji-img:1f33e.png]',
-                'text_code' => '[emoji:水稻]',
+                'text_code' => '[emoji:稻穗]',
                 'name' => 'EAR OF RICE≊ sheaf of rice',
             ),
             array(
@@ -3225,7 +3225,7 @@ return array(
             array(
                 'unified' => '🍀',
                 'image_code' => '[emoji-img:1f340.png]',
-                'text_code' => '[emoji:四叶草]',
+                'text_code' => '[emoji:幸运草]',
                 'name' => 'FOUR LEAF CLOVER',
             ),
             array(
@@ -3237,7 +3237,7 @@ return array(
             array(
                 'unified' => '🍂',
                 'image_code' => '[emoji-img:1f342.png]',
-                'text_code' => '[emoji:枯叶]',
+                'text_code' => '[emoji:落叶]',
                 'name' => 'FALLEN LEAF',
             ),
             array(
@@ -3249,13 +3249,13 @@ return array(
             array(
                 'unified' => '🍄',
                 'image_code' => '[emoji-img:1f344.png]',
-                'text_code' => '[emoji:蕈类]',
+                'text_code' => '[emoji:蘑菇]',
                 'name' => 'MUSHROOM',
             ),
             array(
                 'unified' => '🌰',
                 'image_code' => '[emoji-img:1f330.png]',
-                'text_code' => '[emoji:坚果]',
+                'text_code' => '[emoji:板栗]',
                 'name' => 'CHESTNUT',
             ),
             array(
@@ -3495,31 +3495,31 @@ return array(
             array(
                 'unified' => '🔥',
                 'image_code' => '[emoji-img:1f525.png]',
-                'text_code' => '[emoji:火]',
+                'text_code' => '[emoji:点燃]',
                 'name' => 'FIRE',
             ),
             array(
                 'unified' => '💧',
                 'image_code' => '[emoji-img:1f4a7.png]',
-                'text_code' => '[emoji:小滴]',
+                'text_code' => '[emoji:汗颜]',
                 'name' => 'DROPLET',
             ),
             array(
                 'unified' => '🌊',
                 'image_code' => '[emoji-img:1f30a.png]',
-                'text_code' => '[emoji:海浪]',
+                'text_code' => '[emoji:潮汐]',
                 'name' => 'WATER WAVE',
             ),
             array(
                 'unified' => '🎃',
                 'image_code' => '[emoji-img:1f383.png]',
-                'text_code' => '[emoji:万圣节]',
+                'text_code' => '[emoji:南瓜灯]',
                 'name' => 'JACK-O-LANTERN',
             ),
             array(
                 'unified' => '🎄',
                 'image_code' => '[emoji-img:1f384.png]',
-                'text_code' => '[emoji:圣诞树]',
+                'text_code' => '[emoji:圣诞节]',
                 'name' => 'CHRISTMAS TREE',
             ),
             array(
@@ -3537,7 +3537,7 @@ return array(
             array(
                 'unified' => '🎍',
                 'image_code' => '[emoji-img:1f38d.png]',
-                'text_code' => '[emoji:竹节]',
+                'text_code' => '[emoji:盆栽]',
                 'name' => 'PINE DECORATION',
             ),
         ),
@@ -5617,13 +5617,13 @@ return array(
             array(
                 'unified' => '💓',
                 'image_code' => '[emoji-img:1f493.png]',
-                'text_code' => '[emoji:爱情]',
+                'text_code' => '[emoji:喜欢]',
                 'name' => 'BEATING HEART',
             ),
             array(
                 'unified' => '💔',
                 'image_code' => '[emoji-img:1f494.png]',
-                'text_code' => '[emoji:失恋]',
+                'text_code' => '[emoji:伤心]',
                 'name' => 'BROKEN HEART',
             ),
             array(
@@ -5647,25 +5647,25 @@ return array(
             array(
                 'unified' => '💙',
                 'image_code' => '[emoji-img:1f499.png]',
-                'text_code' => '[emoji:蓝心]',
+                'text_code' => '[emoji:彩心]',
                 'name' => 'BLUE HEART',
             ),
             array(
                 'unified' => '💚',
                 'image_code' => '[emoji-img:1f49a.png]',
-                'text_code' => '[emoji:绿色心形]',
+                'text_code' => '[emoji:绿心]',
                 'name' => 'GREEN HEART',
             ),
             array(
                 'unified' => '💛',
                 'image_code' => '[emoji-img:1f49b.png]',
-                'text_code' => '[emoji:黄色心形]',
+                'text_code' => '[emoji:黄心]',
                 'name' => 'YELLOW HEART',
             ),
             array(
                 'unified' => '💜',
                 'image_code' => '[emoji-img:1f49c.png]',
-                'text_code' => '[emoji:紫心]',
+                'text_code' => '[emoji:紫色心形]',
                 'name' => 'PURPLE HEART',
             ),
             array(
@@ -5677,13 +5677,13 @@ return array(
             array(
                 'unified' => '💞',
                 'image_code' => '[emoji-img:1f49e.png]',
-                'text_code' => '[emoji:旋转的心]',
+                'text_code' => '[emoji:旋转的心形]',
                 'name' => 'REVOLVING HEARTS',
             ),
             array(
                 'unified' => '💟',
                 'image_code' => '[emoji-img:1f49f.png]',
-                'text_code' => '[emoji:心型装饰]',
+                'text_code' => '[emoji:心形装饰]',
                 'name' => 'HEART DECORATION',
             ),
             array(
@@ -5695,7 +5695,7 @@ return array(
             array(
                 'unified' => '💢',
                 'image_code' => '[emoji-img:1f4a2.png]',
-                'text_code' => '[emoji:青筋]',
+                'text_code' => '[emoji:气愤]',
                 'name' => 'ANGER SYMBOL',
             ),
             array(
@@ -5965,7 +5965,7 @@ return array(
             array(
                 'unified' => '🔔',
                 'image_code' => '[emoji-img:1f514.png]',
-                'text_code' => '[emoji:铃铛]',
+                'text_code' => '[emoji:铃当]',
                 'name' => 'BELL',
             ),
             array(
@@ -6019,7 +6019,7 @@ return array(
             array(
                 'unified' => '🚰',
                 'image_code' => '[emoji-img:1f6b0.png]',
-                'text_code' => '[emoji:水龙头]',
+                'text_code' => '[emoji:饮水区]',
                 'name' => 'POTABLE WATER SYMBOL≊ potable water',
             ),
             array(
@@ -6061,13 +6061,13 @@ return array(
             array(
                 'unified' => '🛂',
                 'image_code' => '[emoji-img:1f6c2.png]',
-                'text_code' => '[emoji:证件检查]',
+                'text_code' => '[emoji:通关检查]',
                 'name' => 'PASSPORT CONTROL',
             ),
             array(
                 'unified' => '🛃',
                 'image_code' => '[emoji-img:1f6c3.png]',
-                'text_code' => '[emoji:行李检查]',
+                'text_code' => '[emoji:查行李]',
                 'name' => 'CUSTOMS',
             ),
             array(
@@ -6091,7 +6091,7 @@ return array(
             array(
                 'unified' => '🚸',
                 'image_code' => '[emoji-img:1f6b8.png]',
-                'text_code' => '[emoji:当心儿童]',
+                'text_code' => '[emoji:注意儿童]',
                 'name' => 'CHILDREN CROSSING',
             ),
             array(
@@ -6109,25 +6109,25 @@ return array(
             array(
                 'unified' => '🚳',
                 'image_code' => '[emoji-img:1f6b3.png]',
-                'text_code' => '[emoji:禁止骑车]',
+                'text_code' => '[emoji:禁行单车]',
                 'name' => 'NO BICYCLES',
             ),
             array(
                 'unified' => '🚭',
                 'image_code' => '[emoji-img:1f6ad.png]',
-                'text_code' => '[emoji:无烟区]',
+                'text_code' => '[emoji:禁止吸烟]',
                 'name' => 'NO SMOKING SYMBOL≊ no smoking',
             ),
             array(
                 'unified' => '🚯',
                 'image_code' => '[emoji-img:1f6af.png]',
-                'text_code' => '[emoji:禁丢垃圾]',
+                'text_code' => '[emoji:请勿乱扔]',
                 'name' => 'DO NOT LITTER SYMBOL≊ no littering',
             ),
             array(
                 'unified' => '🚱',
                 'image_code' => '[emoji-img:1f6b1.png]',
-                'text_code' => '[emoji:禁止饮水]',
+                'text_code' => '[emoji:非饮用水]',
                 'name' => 'NON-POTABLE WATER SYMBOL≊ non-potable water',
             ),
             array(
@@ -6265,7 +6265,7 @@ return array(
             array(
                 'unified' => '🔚',
                 'image_code' => '[emoji-img:1f51a.png]',
-                'text_code' => '[emoji:末尾]',
+                'text_code' => '[emoji:结束]',
                 'name' => 'END WITH LEFTWARDS ARROW ABOVE≊ end arrow',
             ),
             array(
@@ -6277,13 +6277,13 @@ return array(
             array(
                 'unified' => '🔜',
                 'image_code' => '[emoji-img:1f51c.png]',
-                'text_code' => '[emoji:快速]',
+                'text_code' => '[emoji:快进]',
                 'name' => 'SOON WITH RIGHTWARDS ARROW ABOVE≊ soon arrow',
             ),
             array(
                 'unified' => '🔝',
                 'image_code' => '[emoji-img:1f51d.png]',
-                'text_code' => '[emoji:置顶]',
+                'text_code' => '[emoji:上方]',
                 'name' => 'TOP WITH UPWARDS ARROW ABOVE≊ top arrow',
             ),
             array(
@@ -6355,7 +6355,7 @@ return array(
             array(
                 'unified' => '🔯',
                 'image_code' => '[emoji-img:1f52f.png]',
-                'text_code' => '[emoji:六芒星]',
+                'text_code' => '[emoji:六角星]',
                 'name' => 'SIX POINTED STAR WITH MIDDLE DOT≊ dotted six-pointed star',
             ),
             array(
@@ -6379,13 +6379,13 @@ return array(
             array(
                 'unified' => '🔰',
                 'image_code' => '[emoji-img:1f530.png]',
-                'text_code' => '[emoji:初心者]',
+                'text_code' => '',
                 'name' => 'JAPANESE SYMBOL FOR BEGINNER',
             ),
             array(
                 'unified' => '🔱',
                 'image_code' => '[emoji-img:1f531.png]',
-                'text_code' => '[emoji:海王戟]',
+                'text_code' => '[emoji:三叉戟]',
                 'name' => 'TRIDENT EMBLEM',
             ),
             array(
@@ -6499,7 +6499,7 @@ return array(
             array(
                 'unified' => '❓',
                 'image_code' => '[emoji-img:2753.png]',
-                'text_code' => '',
+                'text_code' => '[emoji:问号]',
                 'name' => 'BLACK QUESTION MARK ORNAMENT≊ question mark',
             ),
             array(
@@ -6523,7 +6523,7 @@ return array(
             array(
                 'unified' => '〰',
                 'image_code' => '[emoji-img:3030.png]',
-                'text_code' => '[emoji:波浪线]',
+                'text_code' => '[emoji:波浪]',
                 'name' => 'WAVY DASH',
             ),
             array(
@@ -6631,13 +6631,13 @@ return array(
             array(
                 'unified' => '🔁',
                 'image_code' => '[emoji-img:1f501.png]',
-                'text_code' => '[emoji:单曲播放]',
+                'text_code' => '[emoji:循环]',
                 'name' => 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS≊ repeat button',
             ),
             array(
                 'unified' => '🔂',
                 'image_code' => '[emoji-img:1f502.png]',
-                'text_code' => '[emoji:播放一次]',
+                'text_code' => '[emoji:单曲循环]',
                 'name' => 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY≊ repeat single button',
             ),
             array(
@@ -6649,7 +6649,7 @@ return array(
             array(
                 'unified' => '⏩',
                 'image_code' => '[emoji-img:23e9.png]',
-                'text_code' => '[emoji:加速]',
+                'text_code' => '[emoji:向右符号]',
                 'name' => 'BLACK RIGHT-POINTING DOUBLE TRIANGLE≊ fast-forword button',
             ),
             array(
@@ -6673,7 +6673,7 @@ return array(
             array(
                 'unified' => '⏪',
                 'image_code' => '[emoji-img:23ea.png]',
-                'text_code' => '[emoji:减速]',
+                'text_code' => '[emoji:向左符号]',
                 'name' => 'BLACK LEFT-POINTING DOUBLE TRIANGLE≊ fast reverse button',
             ),
             array(
@@ -6685,25 +6685,25 @@ return array(
             array(
                 'unified' => '🔼',
                 'image_code' => '[emoji-img:1f53c.png]',
-                'text_code' => '',
+                'text_code' => '[emoji:向上]',
                 'name' => 'UP-POINTING SMALL RED TRIANGLE≊ up button',
             ),
             array(
                 'unified' => '⏫',
                 'image_code' => '[emoji-img:23eb.png]',
-                'text_code' => '[emoji:上传]',
+                'text_code' => '[emoji:向上符号]',
                 'name' => 'BLACK UP-POINTING DOUBLE TRIANGLE≊ fast up button',
             ),
             array(
                 'unified' => '🔽',
                 'image_code' => '[emoji-img:1f53d.png]',
-                'text_code' => '',
+                'text_code' => '[emoji:向下]',
                 'name' => 'DOWN-POINTING SMALL RED TRIANGLE≊ down button',
             ),
             array(
                 'unified' => '⏬',
                 'image_code' => '[emoji-img:23ec.png]',
-                'text_code' => '[emoji:向下符号]',
+                'text_code' => '[emoji:下载]',
                 'name' => 'BLACK DOWN-POINTING DOUBLE TRIANGLE≊ fast down button',
             ),
             array(
@@ -6727,7 +6727,7 @@ return array(
             array(
                 'unified' => '🎦',
                 'image_code' => '[emoji-img:1f3a6.png]',
-                'text_code' => '[emoji:看电影]',
+                'text_code' => '[emoji:影院]',
                 'name' => 'CINEMA',
             ),
             array(
@@ -6751,7 +6751,7 @@ return array(
             array(
                 'unified' => '📳',
                 'image_code' => '[emoji-img:1f4f3.png]',
-                'text_code' => '[emoji:震动]',
+                'text_code' => '[emoji:振动模式]',
                 'name' => 'VIBRATION MODE',
             ),
             array(
@@ -6835,7 +6835,7 @@ return array(
             array(
                 'unified' => '💯',
                 'image_code' => '[emoji-img:1f4af.png]',
-                'text_code' => '[emoji:一百分]',
+                'text_code' => '[emoji:满分]',
                 'name' => 'HUNDRED POINTS SYMBOL≊ hundred points',
             ),
             array(
@@ -6889,19 +6889,19 @@ return array(
             array(
                 'unified' => '🆑',
                 'image_code' => '[emoji-img:1f191.png]',
-                'text_code' => '[emoji:清零键]',
+                'text_code' => '[emoji:清除]',
                 'name' => 'SQUARED CL',
             ),
             array(
                 'unified' => '🆒',
                 'image_code' => '[emoji-img:1f192.png]',
-                'text_code' => '[emoji:清凉]',
+                'text_code' => '[emoji:酷]',
                 'name' => 'SQUARED COOL',
             ),
             array(
                 'unified' => '🆓',
                 'image_code' => '[emoji-img:1f193.png]',
-                'text_code' => '[emoji:自由]',
+                'text_code' => '[emoji:免费]',
                 'name' => 'SQUARED FREE',
             ),
             array(
@@ -6913,7 +6913,7 @@ return array(
             array(
                 'unified' => '🆔',
                 'image_code' => '[emoji-img:1f194.png]',
-                'text_code' => '[emoji:身分]',
+                'text_code' => '[emoji:身份]',
                 'name' => 'SQUARED ID',
             ),
             array(
@@ -6925,13 +6925,13 @@ return array(
             array(
                 'unified' => '🆕',
                 'image_code' => '[emoji-img:1f195.png]',
-                'text_code' => '[emoji:新建]',
+                'text_code' => '[emoji:新]',
                 'name' => 'SQUARED NEW',
             ),
             array(
                 'unified' => '🆖',
                 'image_code' => '[emoji-img:1f196.png]',
-                'text_code' => '',
+                'text_code' => '[emoji:不好]',
                 'name' => 'SQUARED NG',
             ),
             array(
@@ -7003,13 +7003,13 @@ return array(
             array(
                 'unified' => '🉐',
                 'image_code' => '[emoji-img:1f250.png]',
-                'text_code' => '[emoji:获得]',
+                'text_code' => '[emoji:特价]',
                 'name' => 'CIRCLED IDEOGRAPH ADVANTAGE≊ circled advantage ideograph',
             ),
             array(
                 'unified' => '🈹',
                 'image_code' => '[emoji-img:1f239.png]',
-                'text_code' => '[emoji:割]',
+                'text_code' => '[emoji:让利]',
                 'name' => 'SQUARED CJK UNIFIED IDEOGRAPH-5272≊ squared divide ideograph',
             ),
             array(
@@ -7027,25 +7027,25 @@ return array(
             array(
                 'unified' => '🉑',
                 'image_code' => '[emoji-img:1f251.png]',
-                'text_code' => '[emoji:许可]',
+                'text_code' => '[emoji:接受]',
                 'name' => 'CIRCLED IDEOGRAPH ACCEPT≊ circled accept ideograph',
             ),
             array(
                 'unified' => '🈸',
                 'image_code' => '[emoji-img:1f238.png]',
-                'text_code' => '[emoji:申请]',
+                'text_code' => '[emoji:申]',
                 'name' => 'SQUARED CJK UNIFIED IDEOGRAPH-7533≊ squared apply ideograph',
             ),
             array(
                 'unified' => '🈴',
                 'image_code' => '[emoji-img:1f234.png]',
-                'text_code' => '[emoji:适合]',
+                'text_code' => '[emoji:合格]',
                 'name' => 'SQUARED CJK UNIFIED IDEOGRAPH-5408≊ squared together ideograph',
             ),
             array(
                 'unified' => '🈳',
                 'image_code' => '[emoji-img:1f233.png]',
-                'text_code' => '[emoji:空]',
+                'text_code' => '[emoji:有空位]',
                 'name' => 'SQUARED CJK UNIFIED IDEOGRAPH-7A7A≊ squared empty ideograph',
             ),
             array(
@@ -7063,7 +7063,7 @@ return array(
             array(
                 'unified' => '🈺',
                 'image_code' => '[emoji-img:1f23a.png]',
-                'text_code' => '[emoji:营业]',
+                'text_code' => '[emoji:营业中]',
                 'name' => 'SQUARED CJK UNIFIED IDEOGRAPH-55B6≊ squared operating ideograph',
             ),
             array(
@@ -7165,7 +7165,7 @@ return array(
             array(
                 'unified' => '🔘',
                 'image_code' => '[emoji-img:1f518.png]',
-                'text_code' => '[emoji:按钮]',
+                'text_code' => '[emoji:单选按钮]',
                 'name' => 'RADIO BUTTON',
             ),
             array(
@@ -7302,7 +7302,7 @@ return array(
             array(
                 'unified' => '🌽',
                 'image_code' => '[emoji-img:1f33d.png]',
-                'text_code' => '[emoji:玉米]',
+                'text_code' => '[emoji:玉米穗]',
                 'name' => 'EAR OF MAIZE≊ ear of corn',
             ),
             array(
@@ -7326,7 +7326,7 @@ return array(
             array(
                 'unified' => '🍖',
                 'image_code' => '[emoji-img:1f356.png]',
-                'text_code' => '[emoji:肉骨]',
+                'text_code' => '[emoji:肉串]',
                 'name' => 'MEAT ON BONE',
             ),
             array(
@@ -7338,7 +7338,7 @@ return array(
             array(
                 'unified' => '🍔',
                 'image_code' => '[emoji-img:1f354.png]',
-                'text_code' => '[emoji:汉堡]',
+                'text_code' => '[emoji:汉堡包]',
                 'name' => 'HAMBURGER',
             ),
             array(
@@ -7350,7 +7350,7 @@ return array(
             array(
                 'unified' => '🍕',
                 'image_code' => '[emoji-img:1f355.png]',
-                'text_code' => '[emoji:比萨片]',
+                'text_code' => '[emoji:比萨]',
                 'name' => 'SLICE OF PIZZA≊ pizza',
             ),
             array(
@@ -7374,7 +7374,7 @@ return array(
             array(
                 'unified' => '🍳',
                 'image_code' => '[emoji-img:1f373.png]',
-                'text_code' => '[emoji:煎蛋]',
+                'text_code' => '[emoji:烹饪]',
                 'name' => 'COOKING',
             ),
             array(
@@ -7398,7 +7398,7 @@ return array(
             array(
                 'unified' => '🍘',
                 'image_code' => '[emoji-img:1f358.png]',
-                'text_code' => '[emoji:米饼]',
+                'text_code' => '[emoji:米果]',
                 'name' => 'RICE CRACKER',
             ),
             array(
@@ -7416,13 +7416,13 @@ return array(
             array(
                 'unified' => '🍛',
                 'image_code' => '[emoji-img:1f35b.png]',
-                'text_code' => '[emoji:咖哩饭]',
+                'text_code' => '[emoji:咖喱饭]',
                 'name' => 'CURRY AND RICE≊ curry rice',
             ),
             array(
                 'unified' => '🍜',
                 'image_code' => '[emoji-img:1f35c.png]',
-                'text_code' => '[emoji:面条]',
+                'text_code' => '',
                 'name' => 'STEAMING BOWL',
             ),
             array(
@@ -7458,13 +7458,13 @@ return array(
             array(
                 'unified' => '🍥',
                 'image_code' => '[emoji-img:1f365.png]',
-                'text_code' => '[emoji:鱼板]',
+                'text_code' => '[emoji:雪饼]',
                 'name' => 'FISH CAKE WITH SWIRL DESIGN≊ fish cake with swirl',
             ),
             array(
                 'unified' => '🍡',
                 'image_code' => '[emoji-img:1f361.png]',
-                'text_code' => '[emoji:团子]',
+                'text_code' => '[emoji:丸子]',
                 'name' => 'DANGO',
             ),
             array(
@@ -7482,13 +7482,13 @@ return array(
             array(
                 'unified' => '🍨',
                 'image_code' => '[emoji-img:1f368.png]',
-                'text_code' => '[emoji:冰淇淋]',
+                'text_code' => '[emoji:冰激凌]',
                 'name' => 'ICE CREAM',
             ),
             array(
                 'unified' => '🍩',
                 'image_code' => '[emoji-img:1f369.png]',
-                'text_code' => '[emoji:面包圈]',
+                'text_code' => '[emoji:甜甜圈]',
                 'name' => 'DOUGHNUT',
             ),
             array(
@@ -7506,7 +7506,7 @@ return array(
             array(
                 'unified' => '🍰',
                 'image_code' => '[emoji-img:1f370.png]',
-                'text_code' => '[emoji:草莓蛋糕]',
+                'text_code' => '[emoji:蛋糕]',
                 'name' => 'SHORTCAKE',
             ),
             array(
@@ -7536,13 +7536,13 @@ return array(
             array(
                 'unified' => '🍯',
                 'image_code' => '[emoji-img:1f36f.png]',
-                'text_code' => '[emoji:蜂蜜罐]',
+                'text_code' => '[emoji:蜜罐]',
                 'name' => 'HONEY POT',
             ),
             array(
                 'unified' => '🍼',
                 'image_code' => '[emoji-img:1f37c.png]',
-                'text_code' => '[emoji:喂奶]',
+                'text_code' => '[emoji:奶瓶]',
                 'name' => 'BABY BOTTLE',
             ),
             array(
@@ -7554,7 +7554,7 @@ return array(
             array(
                 'unified' => '🍵',
                 'image_code' => '[emoji-img:1f375.png]',
-                'text_code' => '[emoji:绿茶]',
+                'text_code' => '[emoji:抹茶]',
                 'name' => 'TEACUP WITHOUT HANDLE',
             ),
             array(
@@ -7578,7 +7578,7 @@ return array(
             array(
                 'unified' => '🍸',
                 'image_code' => '[emoji-img:1f378.png]',
-                'text_code' => '[emoji:酒杯]',
+                'text_code' => '[emoji:鸡尾酒]',
                 'name' => 'COCKTAIL GLASS',
             ),
             array(
@@ -7590,13 +7590,13 @@ return array(
             array(
                 'unified' => '🍺',
                 'image_code' => '[emoji-img:1f37a.png]',
-                'text_code' => '',
+                'text_code' => '[emoji:啤酒]',
                 'name' => 'BEER MUG',
             ),
             array(
                 'unified' => '🍻',
                 'image_code' => '[emoji-img:1f37b.png]',
-                'text_code' => '[emoji:碰杯]',
+                'text_code' => '[emoji:啤酒杯]',
                 'name' => 'CLINKING BEER MUGS',
             ),
             array(
@@ -7608,7 +7608,7 @@ return array(
             array(
                 'unified' => '🍴',
                 'image_code' => '[emoji-img:1f374.png]',
-                'text_code' => '[emoji:餐厅]',
+                'text_code' => '[emoji:用餐]',
                 'name' => 'FORK AND KNIFE',
             ),
         ),
@@ -7637,7 +7637,7 @@ return array(
             array(
                 'unified' => '🌋',
                 'image_code' => '[emoji-img:1f30b.png]',
-                'text_code' => '[emoji:火山喷发]',
+                'text_code' => '[emoji:活火山]',
                 'name' => 'VOLCANO',
             ),
             array(
@@ -7787,7 +7787,7 @@ return array(
             array(
                 'unified' => '🏭',
                 'image_code' => '[emoji-img:1f3ed.png]',
-                'text_code' => '[emoji:工厂]',
+                'text_code' => '[emoji:工业区]',
                 'name' => 'FACTORY',
             ),
             array(
@@ -7805,7 +7805,7 @@ return array(
             array(
                 'unified' => '💒',
                 'image_code' => '[emoji-img:1f492.png]',
-                'text_code' => '',
+                'text_code' => '[emoji:婚礼]',
                 'name' => 'WEDDING',
             ),
             array(
@@ -7865,13 +7865,13 @@ return array(
             array(
                 'unified' => '🌁',
                 'image_code' => '[emoji-img:1f301.png]',
-                'text_code' => '[emoji:雾蒙蒙]',
+                'text_code' => '[emoji:雾霾]',
                 'name' => 'FOGGY',
             ),
             array(
                 'unified' => '🌃',
                 'image_code' => '[emoji-img:1f303.png]',
-                'text_code' => '[emoji:晚上]',
+                'text_code' => '[emoji:星空]',
                 'name' => 'NIGHT WITH STARS',
             ),
             array(
@@ -7883,13 +7883,13 @@ return array(
             array(
                 'unified' => '🌅',
                 'image_code' => '[emoji-img:1f305.png]',
-                'text_code' => '[emoji:日出]',
+                'text_code' => '[emoji:海上日出]',
                 'name' => 'SUNRISE',
             ),
             array(
                 'unified' => '🌆',
                 'image_code' => '[emoji-img:1f306.png]',
-                'text_code' => '[emoji:暮色]',
+                'text_code' => '[emoji:傍晚]',
                 'name' => 'CITYSCAPE AT DUSK',
             ),
             array(
@@ -7907,25 +7907,25 @@ return array(
             array(
                 'unified' => '🌌',
                 'image_code' => '[emoji-img:1f30c.png]',
-                'text_code' => '[emoji:银河]',
+                'text_code' => '[emoji:银河系]',
                 'name' => 'MILKY WAY',
             ),
             array(
                 'unified' => '🎠',
                 'image_code' => '[emoji-img:1f3a0.png]',
-                'text_code' => '[emoji:旋转木马]',
+                'text_code' => '[emoji:旋木]',
                 'name' => 'CAROUSEL HORSE',
             ),
             array(
                 'unified' => '🎡',
                 'image_code' => '[emoji-img:1f3a1.png]',
-                'text_code' => '[emoji:摩天轮]',
+                'text_code' => '[emoji:游乐场]',
                 'name' => 'FERRIS WHEEL',
             ),
             array(
                 'unified' => '🎢',
                 'image_code' => '[emoji-img:1f3a2.png]',
-                'text_code' => '[emoji:娱乐]',
+                'text_code' => '[emoji:过山车]',
                 'name' => 'ROLLER COASTER',
             ),
             array(
@@ -7961,7 +7961,7 @@ return array(
             array(
                 'unified' => '🚇',
                 'image_code' => '[emoji-img:1f687.png]',
-                'text_code' => '[emoji:捷运]',
+                'text_code' => '[emoji:地铁]',
                 'name' => 'METRO',
             ),
             array(
@@ -8033,7 +8033,7 @@ return array(
             array(
                 'unified' => '🚑',
                 'image_code' => '[emoji-img:1f691.png]',
-                'text_code' => '[emoji:救护车]',
+                'text_code' => '[emoji:急救车]',
                 'name' => 'AMBULANCE',
             ),
             array(
@@ -8045,7 +8045,7 @@ return array(
             array(
                 'unified' => '🚓',
                 'image_code' => '[emoji-img:1f693.png]',
-                'text_code' => '',
+                'text_code' => '[emoji:警车]',
                 'name' => 'POLICE CAR',
             ),
             array(
@@ -8099,13 +8099,13 @@ return array(
             array(
                 'unified' => '🚜',
                 'image_code' => '[emoji-img:1f69c.png]',
-                'text_code' => '[emoji:货柜车]',
+                'text_code' => '[emoji:拖拉机]',
                 'name' => 'TRACTOR',
             ),
             array(
                 'unified' => '🚲',
                 'image_code' => '[emoji-img:1f6b2.png]',
-                'text_code' => '[emoji:脚踏车]',
+                'text_code' => '[emoji:自行车]',
                 'name' => 'BICYCLE',
             ),
             array(
@@ -8129,7 +8129,7 @@ return array(
             array(
                 'unified' => '🚨',
                 'image_code' => '[emoji-img:1f6a8.png]',
-                'text_code' => '[emoji:警灯]',
+                'text_code' => '[emoji:警车灯]',
                 'name' => 'POLICE CARS REVOLVING LIGHT≊ police car’s light',
             ),
             array(
@@ -8147,7 +8147,7 @@ return array(
             array(
                 'unified' => '🚧',
                 'image_code' => '[emoji-img:1f6a7.png]',
-                'text_code' => '[emoji:拒马]',
+                'text_code' => '[emoji:施工]',
                 'name' => 'CONSTRUCTION SIGN≊ construction',
             ),
             array(
@@ -8189,7 +8189,7 @@ return array(
             array(
                 'unified' => '🚢',
                 'image_code' => '[emoji-img:1f6a2.png]',
-                'text_code' => '[emoji:船]',
+                'text_code' => '[emoji:海运]',
                 'name' => 'SHIP',
             ),
             array(
@@ -8219,7 +8219,7 @@ return array(
             array(
                 'unified' => '💺',
                 'image_code' => '[emoji-img:1f4ba.png]',
-                'text_code' => '[emoji:座椅]',
+                'text_code' => '[emoji:座位]',
                 'name' => 'SEAT',
             ),
             array(
@@ -8231,13 +8231,13 @@ return array(
             array(
                 'unified' => '🚟',
                 'image_code' => '[emoji-img:1f69f.png]',
-                'text_code' => '[emoji:观光列车]',
+                'text_code' => '[emoji:悬浮列车]',
                 'name' => 'SUSPENSION RAILWAY',
             ),
             array(
                 'unified' => '🚠',
                 'image_code' => '[emoji-img:1f6a0.png]',
-                'text_code' => '[emoji:山顶缆车]',
+                'text_code' => '[emoji:缆车]',
                 'name' => 'MOUNTAIN CABLEWAY',
             ),
             array(
@@ -8261,7 +8261,7 @@ return array(
             array(
                 'unified' => '🌠',
                 'image_code' => '[emoji-img:1f320.png]',
-                'text_code' => '[emoji:流星]',
+                'text_code' => '[emoji:彗星]',
                 'name' => 'SHOOTING STAR',
             ),
             array(
@@ -8285,7 +8285,7 @@ return array(
             array(
                 'unified' => '🎑',
                 'image_code' => '[emoji-img:1f391.png]',
-                'text_code' => '[emoji:中秋]',
+                'text_code' => '[emoji:中秋节]',
                 'name' => 'MOON VIEWING CEREMONY≊ moon ceremony',
             ),
             array(
@@ -8314,13 +8314,13 @@ return array(
             array(
                 'unified' => '🇦🇩',
                 'image_code' => '[emoji-img:1f1e6-1f1e9.png]',
-                'text_code' => '[emoji:安道尔]',
+                'text_code' => '[emoji:安道尔共和国]',
                 'name' => 'Flag for Andorra',
             ),
             array(
                 'unified' => '🇦🇪',
                 'image_code' => '[emoji-img:1f1e6-1f1ea.png]',
-                'text_code' => '[emoji:阿联酋]',
+                'text_code' => '[emoji:阿拉伯联合酋长国]',
                 'name' => 'Flag for United Arab Emirates',
             ),
             array(
@@ -8368,7 +8368,7 @@ return array(
             array(
                 'unified' => '🇦🇷',
                 'image_code' => '[emoji-img:1f1e6-1f1f7.png]',
-                'text_code' => '[emoji:南美探戈]',
+                'text_code' => '[emoji:阿根廷]',
                 'name' => 'Flag for Argentina',
             ),
             array(
@@ -8380,13 +8380,13 @@ return array(
             array(
                 'unified' => '🇦🇹',
                 'image_code' => '[emoji-img:1f1e6-1f1f9.png]',
-                'text_code' => '[emoji:奥地利]',
+                'text_code' => '[emoji:音乐之邦]',
                 'name' => 'Flag for Austria',
             ),
             array(
                 'unified' => '🇦🇺',
                 'image_code' => '[emoji-img:1f1e6-1f1fa.png]',
-                'text_code' => '[emoji:澳大利亚]',
+                'text_code' => '[emoji:袋鼠国]',
                 'name' => 'Flag for Australia',
             ),
             array(
@@ -8440,7 +8440,7 @@ return array(
             array(
                 'unified' => '🇧🇬',
                 'image_code' => '[emoji-img:1f1e7-1f1ec.png]',
-                'text_code' => '[emoji:玫瑰王国]',
+                'text_code' => '[emoji:保加利亚]',
                 'name' => 'Flag for Bulgaria',
             ),
             array(
@@ -8452,13 +8452,13 @@ return array(
             array(
                 'unified' => '🇧🇮',
                 'image_code' => '[emoji-img:1f1e7-1f1ee.png]',
-                'text_code' => '[emoji:布隆迪]',
+                'text_code' => '[emoji:蒲隆地]',
                 'name' => 'Flag for Burundi',
             ),
             array(
                 'unified' => '🇧🇯',
                 'image_code' => '[emoji-img:1f1e7-1f1ef.png]',
-                'text_code' => '[emoji:贝宁]',
+                'text_code' => '[emoji:油棕之国]',
                 'name' => 'Flag for Benin',
             ),
             array(
@@ -8494,7 +8494,7 @@ return array(
             array(
                 'unified' => '🇧🇷',
                 'image_code' => '[emoji-img:1f1e7-1f1f7.png]',
-                'text_code' => '[emoji:森巴舞者]',
+                'text_code' => '[emoji:桑巴舞者]',
                 'name' => 'Flag for Brazil',
             ),
             array(
@@ -8512,7 +8512,7 @@ return array(
             array(
                 'unified' => '🇧🇼',
                 'image_code' => '[emoji-img:1f1e7-1f1fc.png]',
-                'text_code' => '[emoji:博兹瓦纳]',
+                'text_code' => '[emoji:波扎那]',
                 'name' => 'Flag for Botswana',
             ),
             array(
@@ -8530,7 +8530,7 @@ return array(
             array(
                 'unified' => '🇨🇦',
                 'image_code' => '[emoji-img:1f1e8-1f1e6.png]',
-                'text_code' => '[emoji:枫叶之国]',
+                'text_code' => '[emoji:加拿大]',
                 'name' => 'Flag for Canada',
             ),
             array(
@@ -8566,7 +8566,7 @@ return array(
             array(
                 'unified' => '🇨🇮',
                 'image_code' => '[emoji-img:1f1e8-1f1ee.png]',
-                'text_code' => '[emoji:象牙海岸]',
+                'text_code' => '[emoji:科特迪瓦]',
                 'name' => 'Flag for Côte d’Ivoire',
             ),
             array(
@@ -8590,7 +8590,7 @@ return array(
             array(
                 'unified' => '🇨🇳',
                 'image_code' => '[emoji-img:1f1e8-1f1f3.png]',
-                'text_code' => '[emoji:中国国旗]',
+                'text_code' => '[emoji:五星红旗]',
                 'name' => 'Flag for China',
             ),
             array(
@@ -8602,7 +8602,7 @@ return array(
             array(
                 'unified' => '🇨🇷',
                 'image_code' => '[emoji-img:1f1e8-1f1f7.png]',
-                'text_code' => '[emoji:哥斯大黎加]',
+                'text_code' => '[emoji:哥斯达黎加]',
                 'name' => 'Flag for Costa Rica',
             ),
             array(
@@ -8644,13 +8644,13 @@ return array(
             array(
                 'unified' => '🇩🇪',
                 'image_code' => '[emoji-img:1f1e9-1f1ea.png]',
-                'text_code' => '[emoji:德国国旗]',
+                'text_code' => '[emoji:日耳曼战车]',
                 'name' => 'Flag for Germany',
             ),
             array(
                 'unified' => '🇩🇯',
                 'image_code' => '[emoji-img:1f1e9-1f1ef.png]',
-                'text_code' => '[emoji:吉布地]',
+                'text_code' => '[emoji:吉布提]',
                 'name' => 'Flag for Djibouti',
             ),
             array(
@@ -8710,7 +8710,7 @@ return array(
             array(
                 'unified' => '🇪🇸',
                 'image_code' => '[emoji-img:1f1ea-1f1f8.png]',
-                'text_code' => '[emoji:西班牙]',
+                'text_code' => '[emoji:西班牙国旗]',
                 'name' => 'Flag for Spain',
             ),
             array(
@@ -8758,19 +8758,19 @@ return array(
             array(
                 'unified' => '🇫🇷',
                 'image_code' => '[emoji-img:1f1eb-1f1f7.png]',
-                'text_code' => '[emoji:高卢雄鸡]',
+                'text_code' => '[emoji:法国]',
                 'name' => 'Flag for France',
             ),
             array(
                 'unified' => '🇬🇦',
                 'image_code' => '[emoji-img:1f1ec-1f1e6.png]',
-                'text_code' => '[emoji:加彭]',
+                'text_code' => '[emoji:加蓬]',
                 'name' => 'Flag for Gabon',
             ),
             array(
                 'unified' => '🇬🇧',
                 'image_code' => '[emoji-img:1f1ec-1f1e7.png]',
-                'text_code' => '[emoji:米字旗]',
+                'text_code' => '[emoji:英国国旗]',
                 'name' => 'Flag for United Kingdom',
             ),
             array(
@@ -8830,7 +8830,7 @@ return array(
             array(
                 'unified' => '🇬🇵',
                 'image_code' => '[emoji-img:1f1ec-1f1f5.png]',
-                'text_code' => '[emoji:瓜德罗普]',
+                'text_code' => '[emoji:瓜地洛普]',
                 'name' => 'Flag for Guadeloupe',
             ),
             array(
@@ -8878,19 +8878,19 @@ return array(
             array(
                 'unified' => '🇭🇰',
                 'image_code' => '[emoji-img:1f1ed-1f1f0.png]',
-                'text_code' => '[emoji:香港]',
+                'text_code' => '[emoji:紫荆花旗]',
                 'name' => 'Flag for Hong Kong',
             ),
             array(
                 'unified' => '🇭🇳',
                 'image_code' => '[emoji-img:1f1ed-1f1f3.png]',
-                'text_code' => '[emoji:宏都拉斯]',
+                'text_code' => '[emoji:洪都拉斯]',
                 'name' => 'Flag for Honduras',
             ),
             array(
                 'unified' => '🇭🇷',
                 'image_code' => '[emoji-img:1f1ed-1f1f7.png]',
-                'text_code' => '[emoji:克罗地亚]',
+                'text_code' => '[emoji:格子军]',
                 'name' => 'Flag for Croatia',
             ),
             array(
@@ -8914,7 +8914,7 @@ return array(
             array(
                 'unified' => '🇮🇩',
                 'image_code' => '[emoji-img:1f1ee-1f1e9.png]',
-                'text_code' => '[emoji:印尼]',
+                'text_code' => '[emoji:印度尼西亚]',
                 'name' => 'Flag for Indonesia',
             ),
             array(
@@ -8938,7 +8938,7 @@ return array(
             array(
                 'unified' => '🇮🇳',
                 'image_code' => '[emoji-img:1f1ee-1f1f3.png]',
-                'text_code' => '[emoji:孔雀之国]',
+                'text_code' => '[emoji:印度]',
                 'name' => 'Flag for India',
             ),
             array(
@@ -8968,7 +8968,7 @@ return array(
             array(
                 'unified' => '🇮🇹',
                 'image_code' => '[emoji-img:1f1ee-1f1f9.png]',
-                'text_code' => '[emoji:意大利]',
+                'text_code' => '[emoji:意大利国旗]',
                 'name' => 'Flag for Italy',
             ),
             array(
@@ -8992,7 +8992,7 @@ return array(
             array(
                 'unified' => '🇯🇵',
                 'image_code' => '[emoji-img:1f1ef-1f1f5.png]',
-                'text_code' => '[emoji:樱花之国]',
+                'text_code' => '[emoji:日本国旗]',
                 'name' => 'Flag for Japan',
             ),
             array(
@@ -9016,13 +9016,13 @@ return array(
             array(
                 'unified' => '🇰🇮',
                 'image_code' => '[emoji-img:1f1f0-1f1ee.png]',
-                'text_code' => '[emoji:吉里巴斯]',
+                'text_code' => '[emoji:基里巴斯]',
                 'name' => 'Flag for Kiribati',
             ),
             array(
                 'unified' => '🇰🇲',
                 'image_code' => '[emoji-img:1f1f0-1f1f2.png]',
-                'text_code' => '[emoji:香岛]',
+                'text_code' => '[emoji:葛摩]',
                 'name' => 'Flag for Comoros',
             ),
             array(
@@ -9034,13 +9034,13 @@ return array(
             array(
                 'unified' => '🇰🇵',
                 'image_code' => '[emoji-img:1f1f0-1f1f5.png]',
-                'text_code' => '[emoji:北韩]',
+                'text_code' => '[emoji:朝鲜]',
                 'name' => 'Flag for North Korea',
             ),
             array(
                 'unified' => '🇰🇷',
                 'image_code' => '[emoji-img:1f1f0-1f1f7.png]',
-                'text_code' => '[emoji:太极虎]',
+                'text_code' => '[emoji:韩国]',
                 'name' => 'Flag for South Korea',
             ),
             array(
@@ -9058,7 +9058,7 @@ return array(
             array(
                 'unified' => '🇰🇿',
                 'image_code' => '[emoji-img:1f1f0-1f1ff.png]',
-                'text_code' => '[emoji:哈萨克]',
+                'text_code' => '[emoji:哈萨克斯坦]',
                 'name' => 'Flag for Kazakhstan',
             ),
             array(
@@ -9082,7 +9082,7 @@ return array(
             array(
                 'unified' => '🇱🇮',
                 'image_code' => '[emoji-img:1f1f1-1f1ee.png]',
-                'text_code' => '[emoji:列支敦斯登]',
+                'text_code' => '[emoji:列支敦士登]',
                 'name' => 'Flag for Liechtenstein',
             ),
             array(
@@ -9244,19 +9244,19 @@ return array(
             array(
                 'unified' => '🇲🇽',
                 'image_code' => '[emoji-img:1f1f2-1f1fd.png]',
-                'text_code' => '[emoji:墨西哥]',
+                'text_code' => '[emoji:高原雄鹰]',
                 'name' => 'Flag for Mexico',
             ),
             array(
                 'unified' => '🇲🇾',
                 'image_code' => '[emoji-img:1f1f2-1f1fe.png]',
-                'text_code' => '[emoji:马来西亚]',
+                'text_code' => '[emoji:锡和橡胶王国]',
                 'name' => 'Flag for Malaysia',
             ),
             array(
                 'unified' => '🇲🇿',
                 'image_code' => '[emoji-img:1f1f2-1f1ff.png]',
-                'text_code' => '[emoji:莫三比克]',
+                'text_code' => '[emoji:莫桑比克]',
                 'name' => 'Flag for Mozambique',
             ),
             array(
@@ -9274,7 +9274,7 @@ return array(
             array(
                 'unified' => '🇳🇪',
                 'image_code' => '[emoji-img:1f1f3-1f1ea.png]',
-                'text_code' => '[emoji:尼日尔]',
+                'text_code' => '[emoji:沙中之国]',
                 'name' => 'Flag for Niger',
             ),
             array(
@@ -9286,7 +9286,7 @@ return array(
             array(
                 'unified' => '🇳🇬',
                 'image_code' => '[emoji-img:1f1f3-1f1ec.png]',
-                'text_code' => '[emoji:非洲雄鹰]',
+                'text_code' => '[emoji:尼日利亚]',
                 'name' => 'Flag for Nigeria',
             ),
             array(
@@ -9298,19 +9298,19 @@ return array(
             array(
                 'unified' => '🇳🇱',
                 'image_code' => '[emoji-img:1f1f3-1f1f1.png]',
-                'text_code' => '[emoji:风车之国]',
+                'text_code' => '[emoji:荷兰]',
                 'name' => 'Flag for Netherlands',
             ),
             array(
                 'unified' => '🇳🇴',
                 'image_code' => '[emoji-img:1f1f3-1f1f4.png]',
-                'text_code' => '[emoji:万岛国]',
+                'text_code' => '[emoji:挪威]',
                 'name' => 'Flag for Norway',
             ),
             array(
                 'unified' => '🇳🇵',
                 'image_code' => '[emoji-img:1f1f3-1f1f5.png]',
-                'text_code' => '[emoji:寺庙之国]',
+                'text_code' => '[emoji:尼泊尔]',
                 'name' => 'Flag for Nepal',
             ),
             array(
@@ -9412,7 +9412,7 @@ return array(
             array(
                 'unified' => '🇵🇼',
                 'image_code' => '[emoji-img:1f1f5-1f1fc.png]',
-                'text_code' => '[emoji:帕劳]',
+                'text_code' => '[emoji:帛琉]',
                 'name' => 'Flag for Palau',
             ),
             array(
@@ -9448,7 +9448,7 @@ return array(
             array(
                 'unified' => '🇷🇺',
                 'image_code' => '[emoji-img:1f1f7-1f1fa.png]',
-                'text_code' => '[emoji:俄国]',
+                'text_code' => '[emoji:俄罗斯]',
                 'name' => 'Flag for Russia',
             ),
             array(
@@ -9478,7 +9478,7 @@ return array(
             array(
                 'unified' => '🇸🇩',
                 'image_code' => '[emoji-img:1f1f8-1f1e9.png]',
-                'text_code' => '[emoji:火炉国]',
+                'text_code' => '[emoji:苏丹]',
                 'name' => 'Flag for Sudan',
             ),
             array(
@@ -9490,7 +9490,7 @@ return array(
             array(
                 'unified' => '🇸🇬',
                 'image_code' => '[emoji-img:1f1f8-1f1ec.png]',
-                'text_code' => '[emoji:狮城]',
+                'text_code' => '[emoji:新加坡]',
                 'name' => 'Flag for Singapore',
             ),
             array(
@@ -9532,7 +9532,7 @@ return array(
             array(
                 'unified' => '🇸🇴',
                 'image_code' => '[emoji-img:1f1f8-1f1f4.png]',
-                'text_code' => '[emoji:非洲之角]',
+                'text_code' => '[emoji:索马里]',
                 'name' => 'Flag for Somalia',
             ),
             array(
@@ -9604,13 +9604,13 @@ return array(
             array(
                 'unified' => '🇹🇭',
                 'image_code' => '[emoji-img:1f1f9-1f1ed.png]',
-                'text_code' => '[emoji:泰国]',
+                'text_code' => '[emoji:万佛之国]',
                 'name' => 'Flag for Thailand',
             ),
             array(
                 'unified' => '🇹🇯',
                 'image_code' => '[emoji-img:1f1f9-1f1ef.png]',
-                'text_code' => '[emoji:塔吉克斯坦]',
+                'text_code' => '[emoji:塔吉克]',
                 'name' => 'Flag for Tajikistan',
             ),
             array(
@@ -9634,7 +9634,7 @@ return array(
             array(
                 'unified' => '🇹🇳',
                 'image_code' => '[emoji-img:1f1f9-1f1f3.png]',
-                'text_code' => '[emoji:橄榄之国]',
+                'text_code' => '[emoji:突尼斯]',
                 'name' => 'Flag for Tunisia',
             ),
             array(
@@ -9646,7 +9646,7 @@ return array(
             array(
                 'unified' => '🇹🇷',
                 'image_code' => '[emoji-img:1f1f9-1f1f7.png]',
-                'text_code' => '[emoji:土耳其]',
+                'text_code' => '[emoji:星月旗]',
                 'name' => 'Flag for Turkey',
             ),
             array(
@@ -9688,7 +9688,7 @@ return array(
             array(
                 'unified' => '🇺🇸',
                 'image_code' => '[emoji-img:1f1fa-1f1f8.png]',
-                'text_code' => '[emoji:山姆大叔]',
+                'text_code' => '[emoji:美国]',
                 'name' => 'Flag for United States',
             ),
             array(
@@ -9790,7 +9790,7 @@ return array(
             array(
                 'unified' => '🇿🇼',
                 'image_code' => '[emoji-img:1f1ff-1f1fc.png]',
-                'text_code' => '[emoji:辛巴威]',
+                'text_code' => '[emoji:津巴布韦]',
                 'name' => 'Flag for Zimbabwe',
             ),
         ),
