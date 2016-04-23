@@ -37,6 +37,15 @@ $pattern .= '#sm';
 preg_match_all($pattern, $content, $matches);
 
 $rows = array();
+
+$en_names = include 'generate/include/emoji_en_names.php';
+$new_en_names = array();
+$unified_to_image_code = include 'generate/include/emoji_unified_to_image_code.php';
+$new_unified_to_image_code = array();
+
+$image_code_to_unified = include 'generate/include/emoji_image_code_to_unified.php';
+$new_image_code_to_unified = array();
+
 foreach($matches[1] as $key => $value){
     $row = array();
     $row['no']    = $matches[1][$key];
@@ -58,8 +67,8 @@ foreach($matches[1] as $key => $value){
     extratImg($row['sams'],$row['unified'],'sams');
     $row['wind']  = $matches[10][$key];
     extratImg($row['wind'],$row['unified'],'wind');
-    $row['gmail'] = $matches[11][$key];
-    extratImg($row['gmail'],$row['unified'],'gmail');
+    //$row['gmail'] = $matches[11][$key];
+    //extratImg($row['gmail'],$row['unified'],'gmail');
     //$row['sb']  = $matches[12][$key];
     //extratImg($row['sb'],$row['unified'],'sb');
     //$row['dcm']  = $matches[13][$key];
@@ -72,12 +81,42 @@ foreach($matches[1] as $key => $value){
     $row['annotations'] = $matches[18][$key];
     $row['annotations'] = preg_replace('#<.*?>#','',$row['annotations']);
     preg_match('#<img alt="(.*?)"#',$row['apple'],$mat);
+    extratImg($row['apple'],$row['unified'],'global');
     if(empty($mat[1])) {
-        preg_match('#<img alt="(.*?)"#',$row['twtr'],$mat);
+        extratImg($row['google'],$row['unified'],'global');
+        preg_match('#<img alt="(.*?)"#',$row['google'],$mat);
     }
+
+    $row['name'] = strip_tags($row['name']);
+    //fix en names
+    if(!isset($en_names[$mat[1]]) || $en_names[$mat[1]] != $row['name']){
+        $new_en_names[$mat[1]]    = html_entity_decode($row['name']);
+    }  else {
+        $new_en_names[$mat[1]]    = $en_names[$mat[1]];
+    }
+    
+    $image_code = '[emoji-img:' . strtolower($row['unified'])  . '.png' . ']';
+
+    if(!isset($image_code_to_unified[$image_code]) || $image_code_to_unified[$image_code] != $mat[1]){
+       $new_image_code_to_unified[$image_code] = $mat[1];
+   } else {
+       $new_image_code_to_unified[$image_code] = $image_code_to_unified[$image_code];
+    } 
+
+    if(!isset($unified_to_image_code[$mat[1]]) || $unified_to_image_code[$mat[1]] != $image_code){
+        //$unified_to_image_code[$mat[1]]    = $image_code;
+        $new_unified_to_image_code[$mat[1]] = $image_code;
+    } else {
+        $new_unified_to_image_code[$mat[1]] = $unified_to_image_code[$mat[1]];
+    } 
+    
+
     $rows[$mat[1]] = $row;
 }
 
+generatrFile($new_en_names, 'en_names');
+generatrFile($new_unified_to_image_code, 'unified_to_image_code');
+generatrFile($new_image_code_to_unified, 'image_code_to_unified');
                                                                                                                      
 function unicode_hex_chars($str){                                                                                   
     $out = '';                                                                                                      
@@ -104,4 +143,26 @@ function extratImg($string, $name,$type) {
     if (!empty($matches)) {
         file_put_contents('official/'. $type . '/' . strtolower($name) . '.png', base64_decode($matches[1]));
     }
+}
+
+function generatrFile($var, $name) {
+    $file_name = 'generate/include/emoji_' . $name . '.php';
+    
+    $line = '';
+    $line .= "<"."?php\n";                                                                                                  
+    $line .=  "\n";                                                                                                          
+    $line .=  "#\n";                                                                                                       
+    $line .=  "# WARNING:\n";                                                                                              
+    $line .=  "# This code is auto-generated. Do not modify it manually.\n";                                               
+    $line .=  "#\n";                                                                                                       
+    $line .=  "\n";                                                                                                          
+
+    $line .= "return array(\n";                                                                        
+    foreach($var as $key => $value) {
+        $line .= '    \'' . $key . '\'' . ' => ' . '\'' . $value . '\',';
+        $line .=  "\n";                                                                                                          
+    }
+    $line .= ');';
+    file_put_contents($file_name,$line);
+
 }

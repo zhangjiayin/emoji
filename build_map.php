@@ -28,6 +28,7 @@
 	$maps["unified_to_kddi"]	= make_mapping($catalog, 'au');
 	$maps["unified_to_softbank"]	= make_mapping($catalog, 'softbank');
 	$maps["unified_to_google"]	= make_mapping($catalog, 'google');
+	$maps["unified_to_category"]	= make_mapping($catalog, 'category');
 
 	$maps["docomo_to_unified"]	= make_mapping_flip($catalog, 'docomo');
 	$maps["kddi_to_unified"]	= make_mapping_flip($catalog, 'au');
@@ -141,12 +142,12 @@
 		$result = array();
 
 		foreach ($mapping as $map){
-
+        
             $src_char = unicode_bytes($map['unified']);
             if ($dest == "image_code"){
                 $dest_char = '[emoji-img:' . $map['image'] . ']';
             } else if (!empty($map[$dest])){
-                if ($dest == 'image') {
+                if (in_array($dest, array('image','category'))) {
                     $dest_char = $map[$dest];
                 } else {
                     $dest_char = unicode_bytes($map[$dest]);

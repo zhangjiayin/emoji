@@ -4,7 +4,7 @@ class EmojiMagician {
         
     public static $maps = array();
 
-    private static function getConfig($name) {
+    public static function getConfig($name) {
         if (!isset($maps[$name])){
             self::$maps[$name] = include(__DIR__ . '/include/' . $name . '.php');
         }
