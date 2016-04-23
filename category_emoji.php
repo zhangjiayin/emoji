@@ -13,11 +13,11 @@ $category_names = array(
     'People' => '表情符号与人物',
     'Objects' => '物体',
     'Activity' => '活动',
-    'Nature'  => '动物和自然',
+    'Nature'  => '动物与自然',
     'other'   => '其他',
     'Symbols' => '符号',
-    'Foods' => '食物和饮料',
-    'Places' => '旅行和地点',
+    'Foods' => '食物与饮料',
+    'Places' => '旅行与地点',
     'Flags' => '旗帜',
 );
 foreach($en_names as $unified => $name){

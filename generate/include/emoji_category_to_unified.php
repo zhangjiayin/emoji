@@ -7,7 +7,7 @@
 
 return array(
     'People' => array(
-        'name' => '表情符号和人物',
+        'name' => '表情符号与人物',
         'list' => array(
             array(
                 'unified' => '😀',
@@ -2656,7 +2656,7 @@ return array(
         ),
     ),
     'Nature' => array(
-        'name' => '动物和自然',
+        'name' => '动物与自然',
         'list' => array(
             array(
                 'unified' => '🙈',
@@ -7207,7 +7207,7 @@ return array(
         ),
     ),
     'Foods' => array(
-        'name' => '食物和饮料',
+        'name' => '食物与饮料',
         'list' => array(
             array(
                 'unified' => '🍇',
@@ -7614,7 +7614,7 @@ return array(
         ),
     ),
     'Places' => array(
-        'name' => '旅行和地点',
+        'name' => '旅行与地点',
         'list' => array(
             array(
                 'unified' => '🗾',
