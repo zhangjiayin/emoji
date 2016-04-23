@@ -1,5 +1,5 @@
 <?php
-
+include 'functions.php';
 if (!is_dir('generate')) {
     mkdir('generate');
 }   
@@ -117,52 +117,3 @@ foreach($matches[1] as $key => $value){
 generatrFile($new_en_names, 'en_names');
 generatrFile($new_unified_to_image_code, 'unified_to_image_code');
 generatrFile($new_image_code_to_unified, 'image_code_to_unified');
-                                                                                                                     
-function unicode_hex_chars($str){                                                                                   
-    $out = '';                                                                                                      
-    $cps = explode('-', $str);                                                                                      
-    foreach ($cps as $cp){                                                                                          
-        $out .= sprintf('%x', hexdec($cp));                                                                         
-    }                                                                                                               
-    return $out;                                                                                                    
-}
-
-function extratImg($string, $name,$type) {
-    if(!is_dir('official/')) {
-        mkdir('official/');
-    }
-
-    if(!is_dir('official/'.$type)) {
-        mkdir('official/' . $type);
-    }
-    $string = trim($string);
-    if($string == 'missing') {
-        return;
-    }
-    preg_match('#src="data:image/png;base64,(.*?)"#',$string, $matches);
-    if (!empty($matches)) {
-        file_put_contents('official/'. $type . '/' . strtolower($name) . '.png', base64_decode($matches[1]));
-    }
-}
-
-function generatrFile($var, $name) {
-    $file_name = 'generate/include/emoji_' . $name . '.php';
-    
-    $line = '';
-    $line .= "<"."?php\n";                                                                                                  
-    $line .=  "\n";                                                                                                          
-    $line .=  "#\n";                                                                                                       
-    $line .=  "# WARNING:\n";                                                                                              
-    $line .=  "# This code is auto-generated. Do not modify it manually.\n";                                               
-    $line .=  "#\n";                                                                                                       
-    $line .=  "\n";                                                                                                          
-
-    $line .= "return array(\n";                                                                        
-    foreach($var as $key => $value) {
-        $line .= '    \'' . $key . '\'' . ' => ' . '\'' . $value . '\',';
-        $line .=  "\n";                                                                                                          
-    }
-    $line .= ');';
-    file_put_contents($file_name,$line);
-
-}
