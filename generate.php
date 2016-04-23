@@ -99,6 +99,7 @@ file_put_contents('generate/include/emoji_unified_to_text_code.php', $unified_to
 
 $names_to_unified = include 'generate/include/emoji_text_code_to_unified.php';
 $unified_to_names = include 'generate/include/emoji_unified_to_text_code.php';
+$image_code_to_unified = include 'generate/include/emoji_image_code_to_unified.php';
 
 $content = file_get_contents('zh.py');
 
@@ -106,6 +107,11 @@ preg_match_all('#EmojiAnnotations\(emoji=\'(.*?)\'.*?name=\'(.*?)\'#', $content,
 foreach($matches[1] as $key => $value) {
     $unified = $value;
     $text = $matches[2][$key];
+    if (strpos($unified, '\\U') === 0){
+        $unified = str_replace('\\U0001','1', $unified);
+        $unified = $image_code_to_unified['[emoji-img:' . $unified . '.png]'];
+        //$unified = unicode_bytes($unified);
+    }
     $names_to_unified['[emoji:' .  $text . ']'] = $unified;
     $unified_to_names[$unified] = '[emoji:' .  $text . ']';
 }
@@ -126,6 +132,7 @@ foreach($unified_to_names as $key => $value) {
 }
 
 $unified_to_text_code_line .= ');' . "\n";
+
 //echo $names_to_unified_line;
 file_put_contents('generate/include/emoji_text_code_to_unified.php', $names_to_unified_line);
 file_put_contents('generate/include/emoji_unified_to_text_code.php', $unified_to_text_code_line);

@@ -75,7 +75,8 @@ function make_names_map($map){
 
     $out = array();
     foreach ($map as $row){
-
+        //print_r($row['unified']);
+        //echo "\n";
         $bytes = unicode_bytes($row['unified']);
 
         $out[$bytes] = $row['name'];
