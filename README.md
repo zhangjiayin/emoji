@@ -4,3 +4,5 @@
 # code from https://github.com/liuyuning/DumpEmoji/
 # php emoji for chinese locale name  with google  softbank convertion
 # improve from http://unicode.org/emoji/charts/full-emoji-list.html
+
+# php android apple的 emoji 中文 对应表
