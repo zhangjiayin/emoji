@@ -12,6 +12,15 @@ class EmojiMagician {
     
     private static function convert($name, $text){
         self::getConfig($name);
+        if (strpos($name,'emoji_unified_to_') === 0) {
+            $pattern = "#(\xf0\x9f\x87[\xa6-\xbf]){2}#";
+            preg_match_all($pattern,$text, $matches);
+            if (!empty($matches)) {
+                foreach($matches[0] as $key => $value) {
+                    $text = str_replace($value, self::$maps[$name][$value], $text);
+                }
+            }
+        }
 		return str_replace(array_keys(self::$maps[$name]), self::$maps[$name], $text);
     }
     public static function GoogleToUnified($text) {
